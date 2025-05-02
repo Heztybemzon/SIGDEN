@@ -22,5 +22,20 @@ namespace SIGDEN
             label1.Visible = false;
             label1.Visible = true;
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
