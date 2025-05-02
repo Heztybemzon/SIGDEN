@@ -39,9 +39,9 @@ namespace SIGDEN
             this.label1.Location = new System.Drawing.Point(226, 82);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 44);
+            this.label1.Size = new System.Drawing.Size(124, 44);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hola";
+            this.label1.Text = "Hola1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
@@ -50,7 +50,7 @@ namespace SIGDEN
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
