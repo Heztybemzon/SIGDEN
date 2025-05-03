@@ -29,6 +29,7 @@ namespace SIGDEN
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -39,6 +40,7 @@ namespace SIGDEN
             this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -68,11 +70,11 @@ namespace SIGDEN
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.Green;
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.Green;
-            this.guna2TextBox1.Location = new System.Drawing.Point(159, 121);
+            this.guna2TextBox1.Location = new System.Drawing.Point(159, 119);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(200, 36);
+            this.guna2TextBox1.Size = new System.Drawing.Size(241, 38);
             this.guna2TextBox1.TabIndex = 2;
             // 
             // guna2TextBox2
@@ -88,11 +90,11 @@ namespace SIGDEN
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.Green;
             this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.Green;
-            this.guna2TextBox2.Location = new System.Drawing.Point(159, 179);
+            this.guna2TextBox2.Location = new System.Drawing.Point(159, 177);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(200, 36);
+            this.guna2TextBox2.Size = new System.Drawing.Size(241, 38);
             this.guna2TextBox2.TabIndex = 3;
             // 
             // guna2TextBox3
@@ -108,11 +110,11 @@ namespace SIGDEN
             this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.Green;
             this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.Green;
-            this.guna2TextBox3.Location = new System.Drawing.Point(159, 242);
+            this.guna2TextBox3.Location = new System.Drawing.Point(159, 240);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PlaceholderText = "";
             this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(200, 36);
+            this.guna2TextBox3.Size = new System.Drawing.Size(241, 38);
             this.guna2TextBox3.TabIndex = 4;
             // 
             // guna2Button1
@@ -125,7 +127,8 @@ namespace SIGDEN
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(342, 349);
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Green;
+            this.guna2Button1.Location = new System.Drawing.Point(317, 349);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(104, 30);
             this.guna2Button1.TabIndex = 6;
@@ -148,19 +151,19 @@ namespace SIGDEN
             // guna2CheckBox1
             // 
             this.guna2CheckBox1.AutoSize = true;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CheckBox1.CheckedState.BorderRadius = 7;
             this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.Location = new System.Drawing.Point(249, 302);
+            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CheckBox1.Location = new System.Drawing.Point(293, 295);
             this.guna2CheckBox1.Name = "guna2CheckBox1";
             this.guna2CheckBox1.Size = new System.Drawing.Size(128, 19);
             this.guna2CheckBox1.TabIndex = 7;
             this.guna2CheckBox1.Text = "Mostrar contraseña";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CheckBox1.UncheckedState.BorderRadius = 7;
+            this.guna2CheckBox1.UncheckedState.BorderThickness = 1;
+            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.White;
             // 
             // guna2PictureBox1
             // 
@@ -184,6 +187,13 @@ namespace SIGDEN
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 9;
             this.guna2PictureBox2.TabStop = false;
+            // 
+            // siticoneBorderlessForm1
+            // 
+            this.siticoneBorderlessForm1.BorderRadius = 40;
+            this.siticoneBorderlessForm1.ContainerControl = this;
+            this.siticoneBorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.siticoneBorderlessForm1.TransparentWhileDrag = true;
             // 
             // Form1
             // 
@@ -221,6 +231,7 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
+        private Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm siticoneBorderlessForm1;
     }
 }
 
