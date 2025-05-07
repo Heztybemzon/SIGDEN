@@ -1,7 +1,7 @@
 ﻿
 namespace SIGDEN
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,7 +30,7 @@ namespace SIGDEN
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtContraseña = new Guna.UI2.WinForms.Guna2TextBox();
@@ -66,7 +66,7 @@ namespace SIGDEN
             this.label1.Location = new System.Drawing.Point(264, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 44);
+            this.label1.Size = new System.Drawing.Size(0, 55);
             this.label1.TabIndex = 0;
             // 
             // txtUsuario
@@ -106,10 +106,12 @@ namespace SIGDEN
             this.txtContraseña.Location = new System.Drawing.Point(139, 231);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '·';
             this.txtContraseña.PlaceholderText = "";
             this.txtContraseña.SelectedText = "";
             this.txtContraseña.Size = new System.Drawing.Size(241, 38);
             this.txtContraseña.TabIndex = 4;
+            this.txtContraseña.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtContraseña_KeyDown);
             // 
             // btnIniciarSesión
             // 
@@ -222,13 +224,14 @@ namespace SIGDEN
             this.cBMostrarContraseña.ForeColor = System.Drawing.Color.DimGray;
             this.cBMostrarContraseña.Location = new System.Drawing.Point(142, 287);
             this.cBMostrarContraseña.Name = "cBMostrarContraseña";
-            this.cBMostrarContraseña.Size = new System.Drawing.Size(152, 19);
+            this.cBMostrarContraseña.Size = new System.Drawing.Size(181, 22);
             this.cBMostrarContraseña.TabIndex = 7;
             this.cBMostrarContraseña.Text = "Mostrar Contraseña";
             this.cBMostrarContraseña.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cBMostrarContraseña.UncheckedState.BorderRadius = 7;
             this.cBMostrarContraseña.UncheckedState.BorderThickness = 1;
             this.cBMostrarContraseña.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.cBMostrarContraseña.CheckedChanged += new System.EventHandler(this.cBMostrarContraseña_CheckedChanged);
             // 
             // guna2PictureBox3
             // 
@@ -282,9 +285,9 @@ namespace SIGDEN
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
             // 
-            // Form1
+            // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(806, 435);
@@ -295,7 +298,7 @@ namespace SIGDEN
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
