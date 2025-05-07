@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace SIGDEN
 {
@@ -16,45 +17,17 @@ namespace SIGDEN
         {
             InitializeComponent();
         }
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnIniciarSesión_Click(object sender, EventArgs e)
         {
-            label1.Visible = false;
-            label1.Visible = true;
-        }
+            con.Open();
+            string iniciar_sesion = "SELECT * FROM tbl_users WHERE username= '" + txtUsuario.Text + "' and password= '" + txtUsuario.Text + "'";
+            cmd = new OleDbCommand(iniciar_sesion, con);
+            OleDbDataReader dr = cmd.ExecuteReader();
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox4_Click(object sender, EventArgs e)
-        {
 
         }
     }
