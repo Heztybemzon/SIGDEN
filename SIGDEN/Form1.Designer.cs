@@ -66,7 +66,7 @@ namespace SIGDEN
             this.label1.Location = new System.Drawing.Point(264, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 55);
+            this.label1.Size = new System.Drawing.Size(0, 44);
             this.label1.TabIndex = 0;
             // 
             // txtUsuario
@@ -153,7 +153,7 @@ namespace SIGDEN
             // 
             this.guna2PictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox9.Image")));
             this.guna2PictureBox9.ImageRotate = 0F;
-            this.guna2PictureBox9.Location = new System.Drawing.Point(116, 53);
+            this.guna2PictureBox9.Location = new System.Drawing.Point(120, 53);
             this.guna2PictureBox9.Name = "guna2PictureBox9";
             this.guna2PictureBox9.Size = new System.Drawing.Size(284, 86);
             this.guna2PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -222,7 +222,7 @@ namespace SIGDEN
             this.cBMostrarContraseña.ForeColor = System.Drawing.Color.DimGray;
             this.cBMostrarContraseña.Location = new System.Drawing.Point(142, 287);
             this.cBMostrarContraseña.Name = "cBMostrarContraseña";
-            this.cBMostrarContraseña.Size = new System.Drawing.Size(181, 22);
+            this.cBMostrarContraseña.Size = new System.Drawing.Size(152, 19);
             this.cBMostrarContraseña.TabIndex = 7;
             this.cBMostrarContraseña.Text = "Mostrar Contraseña";
             this.cBMostrarContraseña.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -284,7 +284,7 @@ namespace SIGDEN
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(806, 435);
