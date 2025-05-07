@@ -66,7 +66,7 @@ namespace SIGDEN
             this.label1.Location = new System.Drawing.Point(264, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 55);
+            this.label1.Size = new System.Drawing.Size(0, 44);
             this.label1.TabIndex = 0;
             // 
             // txtUsuario
@@ -122,10 +122,10 @@ namespace SIGDEN
             this.btnIniciarSesión.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnIniciarSesión.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnIniciarSesión.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(57)))), ((int)(((byte)(37)))));
-            this.btnIniciarSesión.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarSesión.Font = new System.Drawing.Font("Quicksand Medium", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciarSesión.ForeColor = System.Drawing.Color.White;
             this.btnIniciarSesión.HoverState.FillColor = System.Drawing.Color.Green;
-            this.btnIniciarSesión.Location = new System.Drawing.Point(178, 337);
+            this.btnIniciarSesión.Location = new System.Drawing.Point(174, 335);
             this.btnIniciarSesión.Name = "btnIniciarSesión";
             this.btnIniciarSesión.ShadowDecoration.BorderRadius = 10;
             this.btnIniciarSesión.Size = new System.Drawing.Size(168, 39);
@@ -178,15 +178,17 @@ namespace SIGDEN
             // 
             // guna2PictureBox6
             // 
+            this.guna2PictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox6.Image")));
             this.guna2PictureBox6.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Vertical;
-            this.guna2PictureBox6.ImageRotate = 295F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(-52, 120);
+            this.guna2PictureBox6.ImageRotate = 25F;
+            this.guna2PictureBox6.Location = new System.Drawing.Point(-48, 110);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.Size = new System.Drawing.Size(132, 137);
             this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox6.TabIndex = 12;
             this.guna2PictureBox6.TabStop = false;
+            this.guna2PictureBox6.UseTransparentBackground = true;
             // 
             // guna2PictureBox8
             // 
@@ -224,7 +226,7 @@ namespace SIGDEN
             this.cBMostrarContraseña.ForeColor = System.Drawing.Color.DimGray;
             this.cBMostrarContraseña.Location = new System.Drawing.Point(142, 287);
             this.cBMostrarContraseña.Name = "cBMostrarContraseña";
-            this.cBMostrarContraseña.Size = new System.Drawing.Size(181, 22);
+            this.cBMostrarContraseña.Size = new System.Drawing.Size(152, 19);
             this.cBMostrarContraseña.TabIndex = 7;
             this.cBMostrarContraseña.Text = "Mostrar Contraseña";
             this.cBMostrarContraseña.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -287,7 +289,7 @@ namespace SIGDEN
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(806, 435);
