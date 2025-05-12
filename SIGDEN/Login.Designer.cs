@@ -48,6 +48,7 @@ namespace SIGDEN
             this.PanelPastillas = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ProgressBarEmergente = new System.Windows.Forms.ProgressBar();
             this.panelLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
@@ -267,6 +268,7 @@ namespace SIGDEN
             // 
             // PanelPastillas
             // 
+            this.PanelPastillas.Controls.Add(this.ProgressBarEmergente);
             this.PanelPastillas.Controls.Add(this.guna2PictureBox4);
             this.PanelPastillas.Controls.Add(this.guna2PictureBox1);
             this.PanelPastillas.Dock = System.Windows.Forms.DockStyle.Left;
@@ -298,6 +300,13 @@ namespace SIGDEN
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 11;
             this.guna2PictureBox1.TabStop = false;
+            // 
+            // ProgressBarEmergente
+            // 
+            this.ProgressBarEmergente.Location = new System.Drawing.Point(109, 115);
+            this.ProgressBarEmergente.Name = "ProgressBarEmergente";
+            this.ProgressBarEmergente.Size = new System.Drawing.Size(100, 23);
+            this.ProgressBarEmergente.TabIndex = 13;
             // 
             // Login
             // 
@@ -350,6 +359,7 @@ namespace SIGDEN
         private Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel PanelPastillas;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private System.Windows.Forms.ProgressBar ProgressBarEmergente;
     }
 }
 
