@@ -35,7 +35,7 @@ namespace SIGDEN
             this.txtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtContraseña = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnIniciarSesión = new Guna.UI2.WinForms.Guna2Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelLogin = new System.Windows.Forms.Panel();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -43,20 +43,22 @@ namespace SIGDEN
             this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.cBMostrarContraseña = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
+            this.PanelPastillas = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.panel1.SuspendLayout();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.panelLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            this.PanelPastillas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -133,23 +135,23 @@ namespace SIGDEN
             this.btnIniciarSesión.Text = "INICIAR SESIÓN";
             this.btnIniciarSesión.Click += new System.EventHandler(this.btnIniciarSesión_Click);
             // 
-            // panel1
+            // panelLogin
             // 
-            this.panel1.Controls.Add(this.guna2PictureBox9);
-            this.panel1.Controls.Add(this.guna2PictureBox5);
-            this.panel1.Controls.Add(this.guna2PictureBox6);
-            this.panel1.Controls.Add(this.guna2PictureBox8);
-            this.panel1.Controls.Add(this.guna2PictureBox7);
-            this.panel1.Controls.Add(this.cBMostrarContraseña);
-            this.panel1.Controls.Add(this.btnIniciarSesión);
-            this.panel1.Controls.Add(this.txtUsuario);
-            this.panel1.Controls.Add(this.txtContraseña);
-            this.panel1.Controls.Add(this.guna2PictureBox3);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(298, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(508, 435);
-            this.panel1.TabIndex = 7;
+            this.panelLogin.Controls.Add(this.guna2PictureBox9);
+            this.panelLogin.Controls.Add(this.guna2PictureBox5);
+            this.panelLogin.Controls.Add(this.guna2PictureBox6);
+            this.panelLogin.Controls.Add(this.guna2PictureBox8);
+            this.panelLogin.Controls.Add(this.guna2PictureBox7);
+            this.panelLogin.Controls.Add(this.cBMostrarContraseña);
+            this.panelLogin.Controls.Add(this.btnIniciarSesión);
+            this.panelLogin.Controls.Add(this.txtUsuario);
+            this.panelLogin.Controls.Add(this.txtContraseña);
+            this.panelLogin.Controls.Add(this.guna2PictureBox3);
+            this.panelLogin.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelLogin.Location = new System.Drawing.Point(298, 0);
+            this.panelLogin.Name = "panelLogin";
+            this.panelLogin.Size = new System.Drawing.Size(508, 435);
+            this.panelLogin.TabIndex = 7;
             // 
             // guna2PictureBox9
             // 
@@ -246,17 +248,6 @@ namespace SIGDEN
             this.guna2PictureBox3.TabIndex = 9;
             this.guna2PictureBox3.TabStop = false;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(-8, 0);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(309, 435);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 8;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.ImageRotate = 0F;
@@ -274,6 +265,16 @@ namespace SIGDEN
             this.siticoneBorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.siticoneBorderlessForm1.TransparentWhileDrag = true;
             // 
+            // PanelPastillas
+            // 
+            this.PanelPastillas.Controls.Add(this.guna2PictureBox4);
+            this.PanelPastillas.Controls.Add(this.guna2PictureBox1);
+            this.PanelPastillas.Dock = System.Windows.Forms.DockStyle.Left;
+            this.PanelPastillas.Location = new System.Drawing.Point(0, 0);
+            this.PanelPastillas.Name = "PanelPastillas";
+            this.PanelPastillas.Size = new System.Drawing.Size(301, 435);
+            this.PanelPastillas.TabIndex = 11;
+            // 
             // guna2PictureBox4
             // 
             this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
@@ -283,9 +284,20 @@ namespace SIGDEN
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(188, 163);
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox4.TabIndex = 10;
+            this.guna2PictureBox4.TabIndex = 12;
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(-8, 0);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(309, 435);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 11;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // Login
             // 
@@ -293,27 +305,27 @@ namespace SIGDEN
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(806, 435);
-            this.Controls.Add(this.guna2PictureBox4);
+            this.Controls.Add(this.PanelPastillas);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.guna2PictureBox1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelLogin);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelLogin.ResumeLayout(false);
+            this.panelLogin.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            this.PanelPastillas.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,18 +337,19 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2TextBox txtUsuario;
         private Guna.UI2.WinForms.Guna2TextBox txtContraseña;
         private Guna.UI2.WinForms.Guna2Button btnIniciarSesión;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelLogin;
         private Guna.UI2.WinForms.Guna2CheckBox cBMostrarContraseña;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm siticoneBorderlessForm1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox8;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox9;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
+        private Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel PanelPastillas;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
 
