@@ -126,5 +126,38 @@
   <ItemGroup>
     <None Include="Resources\minimizar.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medicamentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seguro-de-salud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paciente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base-de-datos %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prescripcion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SIDGEN %283%29 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
