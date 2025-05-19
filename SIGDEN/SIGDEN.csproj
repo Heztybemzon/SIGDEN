@@ -159,5 +159,11 @@
   <ItemGroup>
     <None Include="Resources\Logo SIDGEN %283%29 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logoo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
