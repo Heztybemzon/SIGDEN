@@ -55,11 +55,11 @@ namespace SIGDEN
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.BtnReport = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMaximize)).BeginInit();
@@ -80,7 +80,7 @@ namespace SIGDEN
             // 
             this.guna2Panel1.Location = new System.Drawing.Point(81, 42);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1502, 818);
+            this.guna2Panel1.Size = new System.Drawing.Size(1502, 787);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2Panel2
@@ -420,15 +420,6 @@ namespace SIGDEN
             this.BtnReport.TabIndex = 0;
             this.BtnReport.Text = "Reporte";
             // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(24)))));
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 866);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1595, 27);
-            this.guna2Panel3.TabIndex = 3;
-            // 
             // guna2Button5
             // 
             this.guna2Button5.BorderRadius = 15;
@@ -473,14 +464,23 @@ namespace SIGDEN
             this.guna2Panel14.Size = new System.Drawing.Size(242, 2);
             this.guna2Panel14.TabIndex = 7;
             // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(24)))));
+            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 835);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(1595, 58);
+            this.guna2Panel3.TabIndex = 3;
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1595, 893);
             this.Controls.Add(this.Sidebar);
-            this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2Panel3);
+            this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2Panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmHome";
@@ -510,7 +510,6 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2PictureBox BtnClose;
         private System.Windows.Forms.FlowLayoutPanel Sidebar;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2PictureBox BtnMinimize;
         private Guna.UI2.WinForms.Guna2PictureBox BtnMaximize;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
@@ -536,5 +535,6 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
         private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
     }
 }
