@@ -22,22 +22,21 @@ namespace SIGDEN
         OleDbDataAdapter da = new OleDbDataAdapter();
         int paso = 0;
         Timer animacionTimer = new Timer();
+
         private void btnIniciarSesión_Click(object sender, EventArgs e)
         {
-                paso = 0;
+            paso = 0;
 
-                // Restablecer el estado inicial de los controles
-                PanelPastillas.Left = -PanelPastillas.Width;
-                guna2PictureBox1.Width = 150;  // o cualquier tamaño original
-                guna2PictureBox1.Height = 150;
-                guna2PictureBox1.Left = (this.Width - guna2PictureBox1.Width) / 2;
-                guna2PictureBox1.Top = (this.Height - guna2PictureBox1.Height) / 2;
+            // Restablecer el estado inicial de los controles
+            PanelPastillas.Left = -PanelPastillas.Width;
+            guna2PictureBox1.Width = 150;  // o cualquier tamaño original
+            guna2PictureBox1.Height = 150;
+            guna2PictureBox1.Left = (this.Width - guna2PictureBox1.Width) / 2;
+            guna2PictureBox1.Top = (this.Height - guna2PictureBox1.Height) / 2;
 
-                animacionTimer.Interval = 30;  // Ajusta el intervalo del temporizador a 30 ms
-                animacionTimer.Tick += AnimacionTimer_Tick;  // Asocia el evento Tick con el método AnimacionTimer_Tick
-                animacionTimer.Start();  // Inicia el temporizador
-            
-
+            animacionTimer.Interval = 30;  // Ajusta el intervalo del temporizador a 30 ms
+            animacionTimer.Tick += AnimacionTimer_Tick;  // Asocia el evento Tick con el método AnimacionTimer_Tick
+            animacionTimer.Start();  // Inicia el temporizador
             con.Open();
             string iniciar_sesion = "SELECT * FROM [user] WHERE usuario = '" + txtUsuario.Text + "' AND contraseña = '" + txtContraseña.Text + "'";
             cmd = new OleDbCommand(iniciar_sesion, con);
@@ -53,8 +52,9 @@ namespace SIGDEN
             txtUsuario.Text = "";
             txtContraseña.Text = "";
             txtUsuario.Focus();
-
         }
+
+
         private void AnimacionTimer_Tick(object sender, EventArgs e)
         {
             {
@@ -118,6 +118,6 @@ namespace SIGDEN
             progressTimer.Start();
         }
 
-
+        
     }
 }

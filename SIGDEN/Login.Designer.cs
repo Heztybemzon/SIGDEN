@@ -34,8 +34,8 @@ namespace SIGDEN
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtContraseña = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnIniciarSesión = new Guna.UI2.WinForms.Guna2Button();
             this.panelLogin = new System.Windows.Forms.Panel();
+            this.btnIniciarSesión = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -49,7 +49,6 @@ namespace SIGDEN
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panelLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
@@ -70,7 +69,7 @@ namespace SIGDEN
             this.label1.Location = new System.Drawing.Point(264, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 44);
+            this.label1.Size = new System.Drawing.Size(0, 55);
             this.label1.TabIndex = 0;
             // 
             // txtUsuario
@@ -117,36 +116,15 @@ namespace SIGDEN
             this.txtContraseña.TabIndex = 4;
             this.txtContraseña.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtContraseña_KeyDown);
             // 
-            // btnIniciarSesión
-            // 
-            this.btnIniciarSesión.BorderRadius = 15;
-            this.btnIniciarSesión.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnIniciarSesión.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnIniciarSesión.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnIniciarSesión.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnIniciarSesión.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnIniciarSesión.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(57)))), ((int)(((byte)(37)))));
-            this.btnIniciarSesión.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarSesión.ForeColor = System.Drawing.Color.White;
-            this.btnIniciarSesión.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(45)))));
-            this.btnIniciarSesión.Location = new System.Drawing.Point(360, 282);
-            this.btnIniciarSesión.Name = "btnIniciarSesión";
-            this.btnIniciarSesión.ShadowDecoration.BorderRadius = 10;
-            this.btnIniciarSesión.Size = new System.Drawing.Size(101, 39);
-            this.btnIniciarSesión.TabIndex = 6;
-            this.btnIniciarSesión.Text = "Eliminar";
-            this.btnIniciarSesión.Click += new System.EventHandler(this.btnIniciarSesión_Click);
-            // 
             // panelLogin
             // 
-            this.panelLogin.Controls.Add(this.guna2GradientButton1);
+            this.panelLogin.Controls.Add(this.btnIniciarSesión);
             this.panelLogin.Controls.Add(this.guna2PictureBox9);
             this.panelLogin.Controls.Add(this.guna2PictureBox5);
             this.panelLogin.Controls.Add(this.guna2PictureBox6);
             this.panelLogin.Controls.Add(this.guna2PictureBox8);
             this.panelLogin.Controls.Add(this.guna2PictureBox7);
             this.panelLogin.Controls.Add(this.cBMostrarContraseña);
-            this.panelLogin.Controls.Add(this.btnIniciarSesión);
             this.panelLogin.Controls.Add(this.txtUsuario);
             this.panelLogin.Controls.Add(this.txtContraseña);
             this.panelLogin.Controls.Add(this.guna2PictureBox3);
@@ -155,6 +133,26 @@ namespace SIGDEN
             this.panelLogin.Name = "panelLogin";
             this.panelLogin.Size = new System.Drawing.Size(508, 435);
             this.panelLogin.TabIndex = 7;
+            // 
+            // btnIniciarSesión
+            // 
+            this.btnIniciarSesión.BorderRadius = 20;
+            this.btnIniciarSesión.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnIniciarSesión.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnIniciarSesión.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnIniciarSesión.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnIniciarSesión.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnIniciarSesión.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(40)))), ((int)(((byte)(37)))));
+            this.btnIniciarSesión.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(89)))), ((int)(((byte)(60)))));
+            this.btnIniciarSesión.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarSesión.ForeColor = System.Drawing.Color.White;
+            this.btnIniciarSesión.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(45)))));
+            this.btnIniciarSesión.Location = new System.Drawing.Point(176, 331);
+            this.btnIniciarSesión.Name = "btnIniciarSesión";
+            this.btnIniciarSesión.Size = new System.Drawing.Size(167, 45);
+            this.btnIniciarSesión.TabIndex = 16;
+            this.btnIniciarSesión.Text = "INICIAR SESIÓN";
+            this.btnIniciarSesión.Click += new System.EventHandler(this.btnIniciarSesión_Click);
             // 
             // guna2PictureBox9
             // 
@@ -231,7 +229,7 @@ namespace SIGDEN
             this.cBMostrarContraseña.ForeColor = System.Drawing.Color.DimGray;
             this.cBMostrarContraseña.Location = new System.Drawing.Point(142, 287);
             this.cBMostrarContraseña.Name = "cBMostrarContraseña";
-            this.cBMostrarContraseña.Size = new System.Drawing.Size(152, 19);
+            this.cBMostrarContraseña.Size = new System.Drawing.Size(181, 22);
             this.cBMostrarContraseña.TabIndex = 7;
             this.cBMostrarContraseña.Text = "Mostrar Contraseña";
             this.cBMostrarContraseña.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -310,28 +308,9 @@ namespace SIGDEN
             this.guna2PictureBox2.TabIndex = 9;
             this.guna2PictureBox2.TabStop = false;
             // 
-            // guna2GradientButton1
-            // 
-            this.guna2GradientButton1.BorderRadius = 20;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(40)))), ((int)(((byte)(37)))));
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(89)))), ((int)(((byte)(60)))));
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(45)))));
-            this.guna2GradientButton1.Location = new System.Drawing.Point(176, 331);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(167, 45);
-            this.guna2GradientButton1.TabIndex = 16;
-            this.guna2GradientButton1.Text = "INICIAR SESIÓN";
-            // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(806, 435);
@@ -366,7 +345,6 @@ namespace SIGDEN
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txtUsuario;
         private Guna.UI2.WinForms.Guna2TextBox txtContraseña;
-        private Guna.UI2.WinForms.Guna2Button btnIniciarSesión;
         private System.Windows.Forms.Panel panelLogin;
         private Guna.UI2.WinForms.Guna2CheckBox cBMostrarContraseña;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
@@ -381,7 +359,7 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.ProgressBar ProgressBarEmergente;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton btnIniciarSesión;
     }
 }
 
