@@ -36,29 +36,29 @@ namespace SIGDEN
             this.txtContraseña = new Guna.UI2.WinForms.Guna2TextBox();
             this.panelLogin = new System.Windows.Forms.Panel();
             this.btnIniciarSesión = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.cBMostrarContraseña = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.PanelPastillas = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
             this.ProgressBarEmergente = new System.Windows.Forms.ProgressBar();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panelLogin.SuspendLayout();
+            this.PanelPastillas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            this.PanelPastillas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,7 +69,7 @@ namespace SIGDEN
             this.label1.Location = new System.Drawing.Point(264, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 55);
+            this.label1.Size = new System.Drawing.Size(0, 44);
             this.label1.TabIndex = 0;
             // 
             // txtUsuario
@@ -83,9 +83,9 @@ namespace SIGDEN
             this.txtUsuario.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsuario.FocusedState.BorderColor = System.Drawing.Color.Green;
-            this.txtUsuario.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.HoverState.BorderColor = System.Drawing.Color.Green;
-            this.txtUsuario.Location = new System.Drawing.Point(139, 169);
+            this.txtUsuario.Location = new System.Drawing.Point(139, 162);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.PlaceholderText = "";
@@ -104,9 +104,9 @@ namespace SIGDEN
             this.txtContraseña.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtContraseña.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtContraseña.FocusedState.BorderColor = System.Drawing.Color.Green;
-            this.txtContraseña.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtContraseña.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.HoverState.BorderColor = System.Drawing.Color.Green;
-            this.txtContraseña.Location = new System.Drawing.Point(139, 231);
+            this.txtContraseña.Location = new System.Drawing.Point(139, 224);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '·';
@@ -147,20 +147,90 @@ namespace SIGDEN
             this.btnIniciarSesión.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciarSesión.ForeColor = System.Drawing.Color.White;
             this.btnIniciarSesión.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(98)))), ((int)(((byte)(45)))));
-            this.btnIniciarSesión.Location = new System.Drawing.Point(176, 331);
+            this.btnIniciarSesión.Location = new System.Drawing.Point(176, 328);
             this.btnIniciarSesión.Name = "btnIniciarSesión";
-            this.btnIniciarSesión.Size = new System.Drawing.Size(167, 45);
+            this.btnIniciarSesión.Size = new System.Drawing.Size(177, 45);
             this.btnIniciarSesión.TabIndex = 16;
             this.btnIniciarSesión.Text = "INICIAR SESIÓN";
             this.btnIniciarSesión.Click += new System.EventHandler(this.btnIniciarSesión_Click);
             // 
+            // cBMostrarContraseña
+            // 
+            this.cBMostrarContraseña.AutoSize = true;
+            this.cBMostrarContraseña.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cBMostrarContraseña.CheckedState.BorderRadius = 7;
+            this.cBMostrarContraseña.CheckedState.BorderThickness = 0;
+            this.cBMostrarContraseña.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cBMostrarContraseña.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cBMostrarContraseña.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cBMostrarContraseña.ForeColor = System.Drawing.Color.DimGray;
+            this.cBMostrarContraseña.Location = new System.Drawing.Point(142, 276);
+            this.cBMostrarContraseña.Name = "cBMostrarContraseña";
+            this.cBMostrarContraseña.Size = new System.Drawing.Size(148, 21);
+            this.cBMostrarContraseña.TabIndex = 7;
+            this.cBMostrarContraseña.Text = "Mostrar Contraseña";
+            this.cBMostrarContraseña.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.cBMostrarContraseña.UncheckedState.BorderRadius = 7;
+            this.cBMostrarContraseña.UncheckedState.BorderThickness = 1;
+            this.cBMostrarContraseña.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.cBMostrarContraseña.CheckedChanged += new System.EventHandler(this.cBMostrarContraseña_CheckedChanged);
+            // 
+            // siticoneBorderlessForm1
+            // 
+            this.siticoneBorderlessForm1.BorderRadius = 40;
+            this.siticoneBorderlessForm1.ContainerControl = this;
+            this.siticoneBorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            this.siticoneBorderlessForm1.TransparentWhileDrag = true;
+            // 
+            // PanelPastillas
+            // 
+            this.PanelPastillas.Controls.Add(this.ProgressBarEmergente);
+            this.PanelPastillas.Controls.Add(this.guna2PictureBox4);
+            this.PanelPastillas.Controls.Add(this.guna2PictureBox1);
+            this.PanelPastillas.Dock = System.Windows.Forms.DockStyle.Left;
+            this.PanelPastillas.Location = new System.Drawing.Point(0, 0);
+            this.PanelPastillas.Name = "PanelPastillas";
+            this.PanelPastillas.Size = new System.Drawing.Size(301, 435);
+            this.PanelPastillas.TabIndex = 11;
+            // 
+            // ProgressBarEmergente
+            // 
+            this.ProgressBarEmergente.Location = new System.Drawing.Point(109, 115);
+            this.ProgressBarEmergente.Name = "ProgressBarEmergente";
+            this.ProgressBarEmergente.Size = new System.Drawing.Size(100, 23);
+            this.ProgressBarEmergente.TabIndex = 13;
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(-21, 306);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(188, 163);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox4.TabIndex = 12;
+            this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(-8, 0);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(309, 435);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 11;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // guna2PictureBox9
             // 
-            this.guna2PictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox9.Image")));
+            this.guna2PictureBox9.Image = global::SIGDEN.Properties.Resources.Logoo1;
             this.guna2PictureBox9.ImageRotate = 0F;
-            this.guna2PictureBox9.Location = new System.Drawing.Point(120, 53);
+            this.guna2PictureBox9.Location = new System.Drawing.Point(120, 41);
             this.guna2PictureBox9.Name = "guna2PictureBox9";
-            this.guna2PictureBox9.Size = new System.Drawing.Size(284, 86);
+            this.guna2PictureBox9.Size = new System.Drawing.Size(283, 106);
             this.guna2PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox9.TabIndex = 15;
             this.guna2PictureBox9.TabStop = false;
@@ -217,27 +287,6 @@ namespace SIGDEN
             this.guna2PictureBox7.TabIndex = 11;
             this.guna2PictureBox7.TabStop = false;
             // 
-            // cBMostrarContraseña
-            // 
-            this.cBMostrarContraseña.AutoSize = true;
-            this.cBMostrarContraseña.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.cBMostrarContraseña.CheckedState.BorderRadius = 7;
-            this.cBMostrarContraseña.CheckedState.BorderThickness = 0;
-            this.cBMostrarContraseña.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.cBMostrarContraseña.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cBMostrarContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.cBMostrarContraseña.ForeColor = System.Drawing.Color.DimGray;
-            this.cBMostrarContraseña.Location = new System.Drawing.Point(142, 287);
-            this.cBMostrarContraseña.Name = "cBMostrarContraseña";
-            this.cBMostrarContraseña.Size = new System.Drawing.Size(181, 22);
-            this.cBMostrarContraseña.TabIndex = 7;
-            this.cBMostrarContraseña.Text = "Mostrar Contraseña";
-            this.cBMostrarContraseña.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.cBMostrarContraseña.UncheckedState.BorderRadius = 7;
-            this.cBMostrarContraseña.UncheckedState.BorderThickness = 1;
-            this.cBMostrarContraseña.UncheckedState.FillColor = System.Drawing.Color.White;
-            this.cBMostrarContraseña.CheckedChanged += new System.EventHandler(this.cBMostrarContraseña_CheckedChanged);
-            // 
             // guna2PictureBox3
             // 
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
@@ -248,55 +297,6 @@ namespace SIGDEN
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 9;
             this.guna2PictureBox3.TabStop = false;
-            // 
-            // siticoneBorderlessForm1
-            // 
-            this.siticoneBorderlessForm1.BorderRadius = 40;
-            this.siticoneBorderlessForm1.ContainerControl = this;
-            this.siticoneBorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
-            this.siticoneBorderlessForm1.TransparentWhileDrag = true;
-            // 
-            // PanelPastillas
-            // 
-            this.PanelPastillas.Controls.Add(this.ProgressBarEmergente);
-            this.PanelPastillas.Controls.Add(this.guna2PictureBox4);
-            this.PanelPastillas.Controls.Add(this.guna2PictureBox1);
-            this.PanelPastillas.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelPastillas.Location = new System.Drawing.Point(0, 0);
-            this.PanelPastillas.Name = "PanelPastillas";
-            this.PanelPastillas.Size = new System.Drawing.Size(301, 435);
-            this.PanelPastillas.TabIndex = 11;
-            // 
-            // ProgressBarEmergente
-            // 
-            this.ProgressBarEmergente.Location = new System.Drawing.Point(109, 115);
-            this.ProgressBarEmergente.Name = "ProgressBarEmergente";
-            this.ProgressBarEmergente.Size = new System.Drawing.Size(100, 23);
-            this.ProgressBarEmergente.TabIndex = 13;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(-21, 306);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(188, 163);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox4.TabIndex = 12;
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(-8, 0);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(309, 435);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 11;
-            this.guna2PictureBox1.TabStop = false;
             // 
             // guna2PictureBox2
             // 
@@ -310,7 +310,7 @@ namespace SIGDEN
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(806, 435);
@@ -325,15 +325,15 @@ namespace SIGDEN
             this.Text = "Form1";
             this.panelLogin.ResumeLayout(false);
             this.panelLogin.PerformLayout();
+            this.PanelPastillas.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            this.PanelPastillas.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

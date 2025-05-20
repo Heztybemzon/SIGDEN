@@ -165,5 +165,23 @@
   <ItemGroup>
     <None Include="Resources\Logoo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CUIDANDO TU SALUD %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CUIDANDO TU SALUD %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ajaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dalee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\That thing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logoo1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
