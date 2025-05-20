@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Guna.UI2.WinForms;
 
 namespace SIGDEN
 {
     public partial class FrmHome : Form
     {
+
         bool sidebarExpand;
 
         public FrmHome()
@@ -66,26 +68,7 @@ namespace SIGDEN
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (sidebarExpand)
-            {
-                Sidebar.Width -= 15;
 
-                if (Sidebar.Width <= Sidebar.MinimumSize.Width)
-                {
-                    sidebarExpand = false;
-                    timer1.Stop();
-                }
-            }
-            else
-            {
-                Sidebar.Width += 30;
-
-                if (Sidebar.Width >= Sidebar.MaximumSize.Width)
-                {
-                    sidebarExpand = true;
-                    timer1.Stop();
-                }
-            }
         }
 
         private void menuButtom_Click(object sender, EventArgs e)
