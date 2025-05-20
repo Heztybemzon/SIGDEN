@@ -93,6 +93,26 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton_circular_plus {
+            get {
+                object obj = ResourceManager.GetObject("boton-circular-plus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton_circular_plus1 {
+            get {
+                object obj = ResourceManager.GetObject("boton-circular-plus1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap casa {
             get {
                 object obj = ResourceManager.GetObject("casa", resourceCulture);
@@ -183,6 +203,16 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logo_SIDGEN__4___1_ {
+            get {
+                object obj = ResourceManager.GetObject("Logo SIDGEN (4) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logoo {
             get {
                 object obj = ResourceManager.GetObject("Logoo", resourceCulture);
@@ -246,6 +276,26 @@ namespace SIGDEN.Properties {
         internal static System.Drawing.Bitmap prescripcion {
             get {
                 object obj = ResourceManager.GetObject("prescripcion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resumen_superficie_y_texturas_de_muro_de_piedra_de_hormigon_blanco {
+            get {
+                object obj = ResourceManager.GetObject("resumen-superficie-y-texturas-de-muro-de-piedra-de-hormigon-blanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resumen_superficie_y_texturas_de_muro_de_piedra_de_hormigon_blanco1 {
+            get {
+                object obj = ResourceManager.GetObject("resumen-superficie-y-texturas-de-muro-de-piedra-de-hormigon-blanco1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

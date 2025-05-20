@@ -31,6 +31,8 @@ namespace SIGDEN
         {
             this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.Sidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
@@ -50,6 +52,10 @@ namespace SIGDEN
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.menuButtom = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.BtnMedicamento = new Guna.UI2.WinForms.Guna2Button();
@@ -57,15 +63,13 @@ namespace SIGDEN
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.BtnBDD = new Guna.UI2.WinForms.Guna2Button();
             this.BtnReport = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.BtnMinimize = new Guna.UI2.WinForms.Guna2PictureBox();
             this.BtnMaximize = new Guna.UI2.WinForms.Guna2PictureBox();
             this.BtnClose = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.Sidebar.SuspendLayout();
@@ -78,6 +82,8 @@ namespace SIGDEN
             this.guna2Panel8.SuspendLayout();
             this.PanelSubMenu.SuspendLayout();
             this.guna2Panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimize)).BeginInit();
@@ -88,8 +94,10 @@ namespace SIGDEN
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.GhostWhite;
-            this.guna2Panel1.Controls.Add(this.guna2ShadowPanel2);
-            this.guna2Panel1.Controls.Add(this.guna2ShadowPanel1);
+            this.guna2Panel1.Controls.Add(this.guna2Button9);
+            this.guna2Panel1.Controls.Add(this.guna2Button8);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox4);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox3);
             this.guna2Panel1.Controls.Add(this.guna2Panel18);
             this.guna2Panel1.Controls.Add(this.guna2Panel15);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox2);
@@ -98,6 +106,21 @@ namespace SIGDEN
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1502, 800);
             this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            // 
+            // guna2Panel18
+            // 
+            this.guna2Panel18.Location = new System.Drawing.Point(1010, 447);
+            this.guna2Panel18.Name = "guna2Panel18";
+            this.guna2Panel18.Size = new System.Drawing.Size(90, 8);
+            this.guna2Panel18.TabIndex = 3;
+            // 
+            // guna2Panel15
+            // 
+            this.guna2Panel15.Location = new System.Drawing.Point(417, 271);
+            this.guna2Panel15.Name = "guna2Panel15";
+            this.guna2Panel15.Size = new System.Drawing.Size(90, 8);
+            this.guna2Panel15.TabIndex = 2;
             // 
             // guna2Panel2
             // 
@@ -125,10 +148,10 @@ namespace SIGDEN
             this.Sidebar.Controls.Add(this.guna2Panel10);
             this.Sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.Sidebar.Location = new System.Drawing.Point(0, 39);
-            this.Sidebar.MaximumSize = new System.Drawing.Size(218, 865);
-            this.Sidebar.MinimumSize = new System.Drawing.Size(75, 865);
+            this.Sidebar.MaximumSize = new System.Drawing.Size(225, 865);
+            this.Sidebar.MinimumSize = new System.Drawing.Size(71, 865);
             this.Sidebar.Name = "Sidebar";
-            this.Sidebar.Size = new System.Drawing.Size(75, 865);
+            this.Sidebar.Size = new System.Drawing.Size(71, 865);
             this.Sidebar.TabIndex = 2;
             // 
             // guna2Panel4
@@ -220,12 +243,14 @@ namespace SIGDEN
             // PanelSubMenu
             // 
             this.PanelSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(40)))), ((int)(((byte)(32)))));
+            this.PanelSubMenu.Controls.Add(this.guna2Button7);
+            this.PanelSubMenu.Controls.Add(this.guna2Button6);
             this.PanelSubMenu.Controls.Add(this.guna2Button4);
             this.PanelSubMenu.Controls.Add(this.guna2Button3);
             this.PanelSubMenu.Controls.Add(this.guna2Button2);
             this.PanelSubMenu.Location = new System.Drawing.Point(3, 469);
             this.PanelSubMenu.Name = "PanelSubMenu";
-            this.PanelSubMenu.Size = new System.Drawing.Size(211, 149);
+            this.PanelSubMenu.Size = new System.Drawing.Size(217, 205);
             this.PanelSubMenu.TabIndex = 4;
             // 
             // guna2Button4
@@ -240,9 +265,9 @@ namespace SIGDEN
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(106)))), ((int)(((byte)(69)))));
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(0, 90);
+            this.guna2Button4.Location = new System.Drawing.Point(0, 80);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(211, 50);
+            this.guna2Button4.Size = new System.Drawing.Size(217, 40);
             this.guna2Button4.TabIndex = 2;
             this.guna2Button4.Text = "Tabla 3";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
@@ -259,9 +284,9 @@ namespace SIGDEN
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(106)))), ((int)(((byte)(69)))));
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(0, 45);
+            this.guna2Button3.Location = new System.Drawing.Point(0, 40);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(211, 45);
+            this.guna2Button3.Size = new System.Drawing.Size(217, 40);
             this.guna2Button3.TabIndex = 1;
             this.guna2Button3.Text = "Tabla 2";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -280,7 +305,7 @@ namespace SIGDEN
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.Location = new System.Drawing.Point(0, 0);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(211, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(217, 40);
             this.guna2Button2.TabIndex = 0;
             this.guna2Button2.Text = "Tabla 1";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -288,7 +313,7 @@ namespace SIGDEN
             // guna2Panel10
             // 
             this.guna2Panel10.Controls.Add(this.BtnReport);
-            this.guna2Panel10.Location = new System.Drawing.Point(3, 624);
+            this.guna2Panel10.Location = new System.Drawing.Point(3, 680);
             this.guna2Panel10.Name = "guna2Panel10";
             this.guna2Panel10.Size = new System.Drawing.Size(238, 62);
             this.guna2Panel10.TabIndex = 3;
@@ -306,6 +331,83 @@ namespace SIGDEN
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(1595, 45);
             this.guna2Panel3.TabIndex = 3;
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.BorderRadius = 10;
+            this.guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(106)))), ((int)(((byte)(69)))));
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.Location = new System.Drawing.Point(0, 120);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.Size = new System.Drawing.Size(217, 40);
+            this.guna2Button6.TabIndex = 3;
+            this.guna2Button6.Text = "Tabla 4";
+            // 
+            // guna2Button7
+            // 
+            this.guna2Button7.BorderRadius = 10;
+            this.guna2Button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(106)))), ((int)(((byte)(69)))));
+            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button7.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.Location = new System.Drawing.Point(0, 160);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.Size = new System.Drawing.Size(217, 40);
+            this.guna2Button7.TabIndex = 4;
+            this.guna2Button7.Text = "Tabla 5";
+            // 
+            // guna2Button8
+            // 
+            this.guna2Button8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button8.BorderRadius = 20;
+            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button8.FillColor = System.Drawing.Color.White;
+            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button8.ForeColor = System.Drawing.Color.White;
+            this.guna2Button8.HoverState.FillColor = System.Drawing.Color.Black;
+            this.guna2Button8.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button8.HoverState.Image = global::SIGDEN.Properties.Resources.Logo_SIDGEN__4___1_;
+            this.guna2Button8.ImageSize = new System.Drawing.Size(50, 50);
+            this.guna2Button8.Location = new System.Drawing.Point(229, 564);
+            this.guna2Button8.Name = "guna2Button8";
+            this.guna2Button8.Size = new System.Drawing.Size(462, 203);
+            this.guna2Button8.TabIndex = 10;
+            this.guna2Button8.Text = "guna2Button8";
+            this.guna2Button8.UseTransparentBackground = true;
+            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
+            // 
+            // guna2Button9
+            // 
+            this.guna2Button9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button9.BorderRadius = 20;
+            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button9.FillColor = System.Drawing.Color.GhostWhite;
+            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button9.ForeColor = System.Drawing.Color.White;
+            this.guna2Button9.Location = new System.Drawing.Point(795, 564);
+            this.guna2Button9.Name = "guna2Button9";
+            this.guna2Button9.Size = new System.Drawing.Size(462, 203);
+            this.guna2Button9.TabIndex = 11;
+            this.guna2Button9.Text = "guna2Button9";
+            this.guna2Button9.UseTransparentBackground = true;
             // 
             // menuButtom
             // 
@@ -403,10 +505,11 @@ namespace SIGDEN
             this.guna2Button5.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2Button5.Location = new System.Drawing.Point(3, 6);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Padding = new System.Windows.Forms.Padding(55, 0, 0, 0);
-            this.guna2Button5.Size = new System.Drawing.Size(208, 53);
+            this.guna2Button5.Padding = new System.Windows.Forms.Padding(17, 0, 0, 0);
+            this.guna2Button5.Size = new System.Drawing.Size(212, 53);
             this.guna2Button5.TabIndex = 1;
             this.guna2Button5.Text = "SOBRE NOSOTROS";
+            this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // BtnBDD
             // 
@@ -449,6 +552,33 @@ namespace SIGDEN
             this.BtnReport.Size = new System.Drawing.Size(204, 54);
             this.BtnReport.TabIndex = 0;
             this.BtnReport.Text = "Reporte";
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox4.BorderRadius = 20;
+            this.guna2PictureBox4.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(790, 557);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(472, 219);
+            this.guna2PictureBox4.TabIndex = 7;
+            this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.BorderRadius = 20;
+            this.guna2PictureBox3.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(224, 557);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(472, 219);
+            this.guna2PictureBox3.TabIndex = 6;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.UseTransparentBackground = true;
+            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click);
             // 
             // guna2PictureBox2
             // 
@@ -513,40 +643,6 @@ namespace SIGDEN
             this.BtnClose.TabStop = false;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
-            // guna2Panel15
-            // 
-            this.guna2Panel15.Location = new System.Drawing.Point(417, 271);
-            this.guna2Panel15.Name = "guna2Panel15";
-            this.guna2Panel15.Size = new System.Drawing.Size(90, 8);
-            this.guna2Panel15.TabIndex = 2;
-            // 
-            // guna2Panel18
-            // 
-            this.guna2Panel18.Location = new System.Drawing.Point(1010, 447);
-            this.guna2Panel18.Name = "guna2Panel18";
-            this.guna2Panel18.Size = new System.Drawing.Size(90, 8);
-            this.guna2Panel18.TabIndex = 3;
-            // 
-            // guna2ShadowPanel1
-            // 
-            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(208, 557);
-            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
-            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(454, 219);
-            this.guna2ShadowPanel1.TabIndex = 4;
-            // 
-            // guna2ShadowPanel2
-            // 
-            this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(793, 557);
-            this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
-            this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(472, 219);
-            this.guna2ShadowPanel2.TabIndex = 5;
-            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -572,6 +668,8 @@ namespace SIGDEN
             this.guna2Panel8.ResumeLayout(false);
             this.PanelSubMenu.ResumeLayout(false);
             this.guna2Panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimize)).EndInit();
@@ -617,7 +715,11 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel18;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel15;
-        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
-        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button9;
+        private Guna.UI2.WinForms.Guna2Button guna2Button8;
     }
 }

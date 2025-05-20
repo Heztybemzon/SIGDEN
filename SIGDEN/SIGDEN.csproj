@@ -183,5 +183,20 @@
   <ItemGroup>
     <None Include="Resources\Logoo1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resumen-superficie-y-texturas-de-muro-de-piedra-de-hormigon-blanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resumen-superficie-y-texturas-de-muro-de-piedra-de-hormigon-blanco1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-circular-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-circular-plus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SIDGEN %284%29 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
