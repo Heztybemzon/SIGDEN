@@ -45,6 +45,7 @@ namespace SIGDEN
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
@@ -64,7 +65,7 @@ namespace SIGDEN
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(45)))), ((int)(((byte)(32)))));
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1502, 153);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1502, 173);
             this.guna2GradientPanel1.TabIndex = 19;
             // 
             // guna2Panel1
@@ -215,6 +216,17 @@ namespace SIGDEN
             this.label7.TabIndex = 29;
             this.label7.Text = resources.GetString("label7.Text");
             // 
+            // guna2ShadowPanel1
+            // 
+            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(135, 402);
+            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
+            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel1.ShadowShift = 30;
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(701, 346);
+            this.guna2ShadowPanel1.TabIndex = 30;
+            // 
             // FrmSobreNostros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -236,6 +248,7 @@ namespace SIGDEN
             this.Controls.Add(this.guna2PictureBox8);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2GradientPanel1);
+            this.Controls.Add(this.guna2ShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmSobreNostros";
             this.Text = "FrmSobreNostros";
@@ -265,5 +278,6 @@ namespace SIGDEN
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
     }
 }

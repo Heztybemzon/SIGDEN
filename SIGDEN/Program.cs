@@ -16,7 +16,7 @@ namespace SIGDEN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSobreNostros());
+            Application.Run(new Login());
         }
     }
 }
