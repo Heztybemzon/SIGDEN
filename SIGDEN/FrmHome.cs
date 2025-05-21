@@ -13,8 +13,7 @@ using System.Runtime.InteropServices;
 namespace SIGDEN
 {
     public partial class FrmHome : Form
-    {
-
+    {   
         bool sidebarExpand;
 
         public FrmHome()
@@ -144,6 +143,7 @@ namespace SIGDEN
             }
 
         }
-    }
 
-}
+       
+        }
+    }
