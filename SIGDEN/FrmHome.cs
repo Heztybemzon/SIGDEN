@@ -105,12 +105,6 @@ namespace SIGDEN
         }
 
 
-        private void guna2Button8_Click(object sender, EventArgs e)
-        {
-            guna2Button8.TextAlign = HorizontalAlignment.Center;
-            guna2Button8.ImageAlign = HorizontalAlignment.Center;
-        }
-
         //Para la transición de la barra despegable
         private void sidebarTimer_Tick(object sender, EventArgs e)
         {
@@ -135,5 +129,6 @@ namespace SIGDEN
                 }
             }
         }
+
     }
 }

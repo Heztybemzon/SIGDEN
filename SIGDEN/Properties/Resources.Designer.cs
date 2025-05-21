@@ -173,6 +173,16 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Eslogan_SIGDEN {
+            get {
+                object obj = ResourceManager.GetObject("Eslogan SIGDEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lista {
             get {
                 object obj = ResourceManager.GetObject("lista", resourceCulture);
@@ -206,6 +216,16 @@ namespace SIGDEN.Properties {
         internal static System.Drawing.Bitmap Logo_SIDGEN__4___1_ {
             get {
                 object obj = ResourceManager.GetObject("Logo SIDGEN (4) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_SIDGEN__5___1_ {
+            get {
+                object obj = ResourceManager.GetObject("Logo SIDGEN (5) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
