@@ -68,7 +68,7 @@ namespace SIGDEN
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.BtnReport = new Guna.UI2.WinForms.Guna2Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
@@ -197,9 +197,9 @@ namespace SIGDEN
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::SIGDEN.Properties.Resources.That_thing;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(69, 148);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(70, 150);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(1421, 473);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(1365, 471);
             this.guna2PictureBox2.TabIndex = 1;
             this.guna2PictureBox2.TabStop = false;
             this.guna2PictureBox2.UseTransparentBackground = true;
@@ -629,10 +629,10 @@ namespace SIGDEN
             this.BtnReport.TabIndex = 0;
             this.BtnReport.Text = "Reporte";
             // 
-            // timer1
+            // sidebarTimer
             // 
-            this.timer1.Interval = 10;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.sidebarTimer.Interval = 10;
+            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_Tick);
             // 
             // guna2Panel3
             // 
@@ -708,7 +708,7 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer sidebarTimer;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;

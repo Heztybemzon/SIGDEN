@@ -66,19 +66,14 @@ namespace SIGDEN
             hideSubMenu();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
-
         private void menuButtom_Click(object sender, EventArgs e)
         {
-            if (timer1.Enabled)
+            if (sidebarTimer.Enabled)
             {
-                timer1.Stop();
+                sidebarTimer.Stop();
             }
 
-            timer1.Start();
+            sidebarTimer.Start();
         }
 
         private void BtnClose_Click(object sender, EventArgs e)
@@ -114,8 +109,31 @@ namespace SIGDEN
         {
             guna2Button8.TextAlign = HorizontalAlignment.Center;
             guna2Button8.ImageAlign = HorizontalAlignment.Center;
-       
+        }
 
+        //Para la transición de la barra despegable
+        private void sidebarTimer_Tick(object sender, EventArgs e)
+        {
+            if (sidebarExpand)
+            {
+                Sidebar.Width -= 15;
+
+                if (Sidebar.Width <= Sidebar.MinimumSize.Width)
+                {
+                    sidebarExpand = false;
+                    sidebarTimer.Stop();
+                }
+            }
+            else
+            {
+                Sidebar.Width += 30;
+
+                if (Sidebar.Width >= Sidebar.MaximumSize.Width)
+                {
+                    sidebarExpand = true;
+                    sidebarTimer.Stop();
+                }
+            }
         }
     }
 }
