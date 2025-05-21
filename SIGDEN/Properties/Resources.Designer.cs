@@ -133,6 +133,16 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cuadrado {
+            get {
+                object obj = ResourceManager.GetObject("cuadrado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CUIDANDO_TU_SALUD__1_ {
             get {
                 object obj = ResourceManager.GetObject("CUIDANDO TU SALUD (1)", resourceCulture);
