@@ -143,6 +143,7 @@ namespace SIGDEN
             // btnIniciarSesión
             // 
             this.btnIniciarSesión.BorderRadius = 20;
+            this.btnIniciarSesión.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnIniciarSesión.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnIniciarSesión.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnIniciarSesión.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
