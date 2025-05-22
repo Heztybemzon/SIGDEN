@@ -114,7 +114,7 @@ namespace SIGDEN
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(45)))), ((int)(((byte)(32)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(1074, 356);
+            this.label4.Location = new System.Drawing.Point(1069, 356);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(150, 40);
             this.label4.TabIndex = 24;
