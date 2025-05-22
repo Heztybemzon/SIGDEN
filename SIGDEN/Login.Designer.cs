@@ -84,14 +84,17 @@ namespace SIGDEN
             this.txtUsuario.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtUsuario.FocusedState.BorderColor = System.Drawing.Color.Green;
             this.txtUsuario.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.ForeColor = System.Drawing.Color.Black;
             this.txtUsuario.HoverState.BorderColor = System.Drawing.Color.Green;
             this.txtUsuario.Location = new System.Drawing.Point(139, 162);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.PlaceholderText = "";
+            this.txtUsuario.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtUsuario.PlaceholderText = "Nombre de Usuario";
             this.txtUsuario.SelectedText = "";
             this.txtUsuario.Size = new System.Drawing.Size(241, 38);
             this.txtUsuario.TabIndex = 3;
+            this.txtUsuario.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // txtContraseña
             // 
@@ -105,15 +108,18 @@ namespace SIGDEN
             this.txtContraseña.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtContraseña.FocusedState.BorderColor = System.Drawing.Color.Green;
             this.txtContraseña.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.ForeColor = System.Drawing.Color.Black;
             this.txtContraseña.HoverState.BorderColor = System.Drawing.Color.Green;
             this.txtContraseña.Location = new System.Drawing.Point(139, 224);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '·';
-            this.txtContraseña.PlaceholderText = "";
+            this.txtContraseña.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtContraseña.PlaceholderText = "Contraseña";
             this.txtContraseña.SelectedText = "";
             this.txtContraseña.Size = new System.Drawing.Size(241, 38);
             this.txtContraseña.TabIndex = 4;
+            this.txtContraseña.TextOffset = new System.Drawing.Point(10, 0);
             this.txtContraseña.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtContraseña_KeyDown);
             // 
             // panelLogin

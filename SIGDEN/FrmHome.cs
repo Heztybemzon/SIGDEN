@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Guna.UI2.WinForms;
+using System.Runtime.InteropServices;
 
 namespace SIGDEN
 {
     public partial class FrmHome : Form
-    {
-
+    {   
         bool sidebarExpand;
 
         public FrmHome()
@@ -21,6 +21,7 @@ namespace SIGDEN
             InitializeComponent();
             customizeDesing();
         }
+
 
         private void customizeDesing()
         {
@@ -80,14 +81,25 @@ namespace SIGDEN
         {
             Application.Exit();
         }
-
+        private bool estaMaximizado = false;
         private void BtnMaximize_Click(object sender, EventArgs e)
         {
-            if (this.WindowState == FormWindowState.Normal)
-                this.WindowState = FormWindowState.Maximized;
-            else
+
+
+            if (estaMaximizado)
+            {
                 this.WindowState = FormWindowState.Normal;
+                BtnMaximize.Image = Properties.Resources.cuadrado; // tu ícono de maximizar
+                estaMaximizado = false;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Maximized;
+                BtnMaximize.Image = Properties.Resources.minimizar; // tu ícono de restaurar
+                estaMaximizado = true;
+            }
         }
+
 
         private void BtnMinimize_Click(object sender, EventArgs e)
         {
@@ -127,8 +139,9 @@ namespace SIGDEN
                     sidebarExpand = true;
                     sidebarTimer.Stop();
                 }
-            }
-        }
 
+            }
+
+        }
+        }
     }
-}
