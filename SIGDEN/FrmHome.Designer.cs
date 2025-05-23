@@ -197,7 +197,7 @@ namespace SIGDEN
             this.BtnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMinimize.Image = global::SIGDEN.Properties.Resources.signo_menos;
             this.BtnMinimize.ImageRotate = 0F;
-            this.BtnMinimize.Location = new System.Drawing.Point(1438, 11);
+            this.BtnMinimize.Location = new System.Drawing.Point(1495, 11);
             this.BtnMinimize.Name = "BtnMinimize";
             this.BtnMinimize.Size = new System.Drawing.Size(12, 12);
             this.BtnMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -210,7 +210,7 @@ namespace SIGDEN
             this.BtnMaximize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMaximize.Image = global::SIGDEN.Properties.Resources.minimizar;
             this.BtnMaximize.ImageRotate = 0F;
-            this.BtnMaximize.Location = new System.Drawing.Point(1473, 11);
+            this.BtnMaximize.Location = new System.Drawing.Point(1531, 11);
             this.BtnMaximize.Name = "BtnMaximize";
             this.BtnMaximize.Size = new System.Drawing.Size(14, 15);
             this.BtnMaximize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -223,7 +223,7 @@ namespace SIGDEN
             this.BtnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnClose.Image = global::SIGDEN.Properties.Resources.cerrar;
             this.BtnClose.ImageRotate = 0F;
-            this.BtnClose.Location = new System.Drawing.Point(1506, 13);
+            this.BtnClose.Location = new System.Drawing.Point(1565, 13);
             this.BtnClose.Name = "BtnClose";
             this.BtnClose.Size = new System.Drawing.Size(12, 12);
             this.BtnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
