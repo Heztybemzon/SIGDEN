@@ -101,9 +101,9 @@ namespace SIGDEN
             this.guna2Panel1.Controls.Add(this.guna2Panel15);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2Panel1.Location = new System.Drawing.Point(81, 41);
+            this.guna2Panel1.Location = new System.Drawing.Point(77, 41);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1502, 800);
+            this.guna2Panel1.Size = new System.Drawing.Size(1506, 800);
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
@@ -248,7 +248,7 @@ namespace SIGDEN
             this.Sidebar.MaximumSize = new System.Drawing.Size(225, 865);
             this.Sidebar.MinimumSize = new System.Drawing.Size(71, 865);
             this.Sidebar.Name = "Sidebar";
-            this.Sidebar.Size = new System.Drawing.Size(225, 865);
+            this.Sidebar.Size = new System.Drawing.Size(71, 865);
             this.Sidebar.TabIndex = 2;
             // 
             // guna2Panel4
