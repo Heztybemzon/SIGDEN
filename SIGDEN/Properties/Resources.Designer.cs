@@ -73,6 +73,36 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6 {
+            get {
+                object obj = ResourceManager.GetObject("6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7 {
+            get {
+                object obj = ResourceManager.GetObject("7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8 {
+            get {
+                object obj = ResourceManager.GetObject("8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ajaa {
             get {
                 object obj = ResourceManager.GetObject("Ajaa", resourceCulture);
@@ -223,6 +253,16 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logio {
+            get {
+                object obj = ResourceManager.GetObject("Logio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_SIDGEN__3___1_ {
             get {
                 object obj = ResourceManager.GetObject("Logo SIDGEN (3) (1)", resourceCulture);
@@ -356,6 +396,16 @@ namespace SIGDEN.Properties {
         internal static System.Drawing.Bitmap signo_menos {
             get {
                 object obj = ResourceManager.GetObject("signo-menos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Steban {
+            get {
+                object obj = ResourceManager.GetObject("Steban", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
