@@ -29,6 +29,7 @@ namespace SIGDEN
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMedicamentos));
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -48,6 +49,7 @@ namespace SIGDEN
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
+            this.guna2ShadowPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel4
@@ -122,10 +124,12 @@ namespace SIGDEN
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.BorderRadius = 10;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(35)))));
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(314, 94);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(-5, 0);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(367, 292);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(347, 321);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 1;
             this.guna2PictureBox2.TabStop = false;
             this.guna2PictureBox2.UseTransparentBackground = true;
@@ -196,13 +200,14 @@ namespace SIGDEN
             // guna2ShadowPanel3
             // 
             this.guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel3.Controls.Add(this.guna2PictureBox2);
             this.guna2ShadowPanel3.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel3.Location = new System.Drawing.Point(319, 105);
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(319, 80);
             this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
             this.guna2ShadowPanel3.Radius = 10;
             this.guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel3.ShadowShift = 20;
-            this.guna2ShadowPanel3.Size = new System.Drawing.Size(358, 300);
+            this.guna2ShadowPanel3.Size = new System.Drawing.Size(341, 339);
             this.guna2ShadowPanel3.TabIndex = 6;
             // 
             // FrmMedicamentos
@@ -210,7 +215,6 @@ namespace SIGDEN
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1502, 800);
-            this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2ShadowPanel3);
             this.Controls.Add(this.guna2PictureBox4);
             this.Controls.Add(this.guna2ShadowPanel2);
@@ -226,6 +230,7 @@ namespace SIGDEN
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
+            this.guna2ShadowPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
