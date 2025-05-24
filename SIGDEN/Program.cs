@@ -16,11 +16,7 @@ namespace SIGDEN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Application.Run(new FrmProgressBar());
-=======
-            Application.Run(new Analgesico());
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
+            Application.Run(new FrmHome());
         }
     }
 }

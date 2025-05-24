@@ -106,15 +106,7 @@ namespace SIGDEN
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void guna2PictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+       
 
 
         //Para la transición de la barra despegable
@@ -143,5 +135,23 @@ namespace SIGDEN
             }
 
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.Fecha.Text = DateTime.Now.ToString("hh:mm:ss");
+            this.Hora.Text = DateTime.Now.ToLongDateString();
         }
+
+        private void BtnMedicamento_Click(object sender, EventArgs e)
+        {
+            panelContainer.Controls.Clear();
+            FrmMedicamentos formulario = new FrmMedicamentos();
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+
+
+            panelContainer.Controls.Add(formulario);
+            formulario.Show();
+        }
+    }
     }

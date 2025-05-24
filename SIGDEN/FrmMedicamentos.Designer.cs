@@ -29,7 +29,6 @@ namespace SIGDEN
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMedicamentos));
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -39,213 +38,75 @@ namespace SIGDEN
             this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ShadowPanel1.SuspendLayout();
-            this.guna2ShadowPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
+            this.guna2ShadowPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-<<<<<<< HEAD
-            // contenedor4
-            // 
-            this.contenedor4.Controls.Add(this.guna2PictureBox5);
-            this.contenedor4.Location = new System.Drawing.Point(57, 369);
-            this.contenedor4.Margin = new System.Windows.Forms.Padding(2);
-            this.contenedor4.Name = "contenedor4";
-            this.contenedor4.Size = new System.Drawing.Size(230, 222);
-            this.contenedor4.TabIndex = 1;
-            // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(230, 222);
-            this.guna2PictureBox5.TabIndex = 1;
-            this.guna2PictureBox5.TabStop = false;
-            // 
-=======
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(101, 184);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(86, 15);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(108, 18);
             this.guna2HtmlLabel4.TabIndex = 4;
             this.guna2HtmlLabel4.Text = "guna2HtmlLabel4";
             // 
-<<<<<<< HEAD
-            // contenedor5
-            // 
-            this.contenedor5.Controls.Add(this.guna2PictureBox6);
-            this.contenedor5.Location = new System.Drawing.Point(378, 369);
-            this.contenedor5.Margin = new System.Windows.Forms.Padding(2);
-            this.contenedor5.Name = "contenedor5";
-            this.contenedor5.Size = new System.Drawing.Size(230, 222);
-            this.contenedor5.TabIndex = 1;
-            // 
-            // guna2PictureBox6
-            // 
-            this.guna2PictureBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2PictureBox6.Name = "guna2PictureBox6";
-            this.guna2PictureBox6.Size = new System.Drawing.Size(230, 222);
-            this.guna2PictureBox6.TabIndex = 1;
-            this.guna2PictureBox6.TabStop = false;
-            // 
-=======
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(103, 184);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(86, 15);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(108, 18);
             this.guna2HtmlLabel5.TabIndex = 4;
             this.guna2HtmlLabel5.Text = "guna2HtmlLabel5";
             // 
-<<<<<<< HEAD
-            // contenedo6
-            // 
-            this.contenedo6.Controls.Add(this.guna2PictureBox7);
-            this.contenedo6.Location = new System.Drawing.Point(698, 369);
-            this.contenedo6.Margin = new System.Windows.Forms.Padding(2);
-            this.contenedo6.Name = "contenedo6";
-            this.contenedo6.Size = new System.Drawing.Size(230, 222);
-            this.contenedo6.TabIndex = 1;
-            // 
-            // guna2PictureBox7
-            // 
-            this.guna2PictureBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2PictureBox7.Name = "guna2PictureBox7";
-            this.guna2PictureBox7.Size = new System.Drawing.Size(230, 222);
-            this.guna2PictureBox7.TabIndex = 1;
-            this.guna2PictureBox7.TabStop = false;
-            // 
-=======
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(119, 184);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(86, 15);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(108, 18);
             this.guna2HtmlLabel6.TabIndex = 4;
             this.guna2HtmlLabel6.Text = "guna2HtmlLabel6";
             // 
-<<<<<<< HEAD
-            // contenedor3
-            // 
-            this.contenedor3.Controls.Add(this.guna2PictureBox4);
-            this.contenedor3.Location = new System.Drawing.Point(698, 66);
-            this.contenedor3.Margin = new System.Windows.Forms.Padding(2);
-            this.contenedor3.Name = "contenedor3";
-            this.contenedor3.Size = new System.Drawing.Size(230, 222);
-            this.contenedor3.TabIndex = 1;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(230, 222);
-            this.guna2PictureBox4.TabIndex = 1;
-            this.guna2PictureBox4.TabStop = false;
-            // 
-=======
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(113, 188);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(86, 15);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(108, 18);
             this.guna2HtmlLabel3.TabIndex = 4;
             this.guna2HtmlLabel3.Text = "guna2HtmlLabel3";
             // 
-<<<<<<< HEAD
-            // contenedor2
-            // 
-            this.contenedor2.Controls.Add(this.guna2PictureBox3);
-            this.contenedor2.Location = new System.Drawing.Point(378, 66);
-            this.contenedor2.Margin = new System.Windows.Forms.Padding(2);
-            this.contenedor2.Name = "contenedor2";
-            this.contenedor2.Size = new System.Drawing.Size(230, 222);
-            this.contenedor2.TabIndex = 1;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(230, 222);
-            this.guna2PictureBox3.TabIndex = 1;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-=======
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(114, 188);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(86, 15);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(108, 18);
             this.guna2HtmlLabel2.TabIndex = 4;
             this.guna2HtmlLabel2.Text = "guna2HtmlLabel2";
             // 
-<<<<<<< HEAD
-            // contenedor1
-            // 
-            this.contenedor1.Controls.Add(this.guna2PictureBox2);
-            this.contenedor1.Location = new System.Drawing.Point(57, 66);
-            this.contenedor1.Margin = new System.Windows.Forms.Padding(2);
-            this.contenedor1.Name = "contenedor1";
-            this.contenedor1.Size = new System.Drawing.Size(230, 222);
-            this.contenedor1.TabIndex = 0;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(230, 222);
-            this.guna2PictureBox2.TabIndex = 0;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-=======
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(101, 188);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(86, 15);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(108, 18);
             this.guna2HtmlLabel1.TabIndex = 1;
             this.guna2HtmlLabel1.Text = "guna2HtmlLabel1";
             // 
@@ -253,12 +114,13 @@ namespace SIGDEN
             // 
             this.guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel3.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel3.Location = new System.Drawing.Point(358, 218);
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(477, 268);
+            this.guna2ShadowPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
             this.guna2ShadowPanel3.Radius = 15;
             this.guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel3.ShadowShift = 20;
-            this.guna2ShadowPanel3.Size = new System.Drawing.Size(333, 189);
+            this.guna2ShadowPanel3.Size = new System.Drawing.Size(444, 233);
             this.guna2ShadowPanel3.TabIndex = 6;
             // 
             // guna2ShadowPanel1
@@ -267,12 +129,13 @@ namespace SIGDEN
             this.guna2ShadowPanel1.Controls.Add(this.guna2Button3);
             this.guna2ShadowPanel1.Controls.Add(this.guna2PictureBox6);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(341, 436);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(455, 537);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 10;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel1.ShadowShift = 20;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(365, 339);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(487, 417);
             this.guna2ShadowPanel1.TabIndex = 7;
             // 
             // guna2Button3
@@ -289,12 +152,30 @@ namespace SIGDEN
             this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Location = new System.Drawing.Point(25, 204);
+            this.guna2Button3.Location = new System.Drawing.Point(33, 251);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(320, 55);
+            this.guna2Button3.Size = new System.Drawing.Size(427, 68);
             this.guna2Button3.TabIndex = 10;
             this.guna2Button3.Text = "guna2Button3";
             this.guna2Button3.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox6
+            // 
+            this.guna2PictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox6.BorderRadius = 10;
+            this.guna2PictureBox6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.guna2PictureBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(35)))));
+            this.guna2PictureBox6.Image = global::SIGDEN.Properties.Resources.Logio;
+            this.guna2PictureBox6.ImageRotate = 0F;
+            this.guna2PictureBox6.Location = new System.Drawing.Point(19, 0);
+            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox6.Name = "guna2PictureBox6";
+            this.guna2PictureBox6.Size = new System.Drawing.Size(452, 395);
+            this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox6.TabIndex = 1;
+            this.guna2PictureBox6.TabStop = false;
+            this.guna2PictureBox6.UseTransparentBackground = true;
             // 
             // guna2ShadowPanel2
             // 
@@ -302,12 +183,13 @@ namespace SIGDEN
             this.guna2ShadowPanel2.Controls.Add(this.guna2Button4);
             this.guna2ShadowPanel2.Controls.Add(this.guna2PictureBox4);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(898, 436);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(1197, 537);
+            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 10;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel2.ShadowShift = 20;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(358, 339);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(477, 417);
             this.guna2ShadowPanel2.TabIndex = 7;
             // 
             // guna2Button4
@@ -324,12 +206,30 @@ namespace SIGDEN
             this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Location = new System.Drawing.Point(60, 196);
+            this.guna2Button4.Location = new System.Drawing.Point(80, 241);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(230, 89);
+            this.guna2Button4.Size = new System.Drawing.Size(307, 110);
             this.guna2Button4.TabIndex = 10;
             this.guna2Button4.Text = "guna2Button4";
             this.guna2Button4.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox4.BorderRadius = 10;
+            this.guna2PictureBox4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.guna2PictureBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(35)))));
+            this.guna2PictureBox4.Image = global::SIGDEN.Properties.Resources._7;
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(12, 4);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(452, 395);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox4.TabIndex = 1;
+            this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.UseTransparentBackground = true;
             // 
             // guna2Button1
             // 
@@ -345,9 +245,10 @@ namespace SIGDEN
             this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Location = new System.Drawing.Point(404, 252);
+            this.guna2Button1.Location = new System.Drawing.Point(539, 310);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(239, 60);
+            this.guna2Button1.Size = new System.Drawing.Size(319, 74);
             this.guna2Button1.TabIndex = 8;
             this.guna2Button1.Text = "guna2Button1";
             this.guna2Button1.UseTransparentBackground = true;
@@ -368,9 +269,10 @@ namespace SIGDEN
             this.guna2Button2.ForeColor = System.Drawing.Color.Transparent;
             this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.guna2Button2.Location = new System.Drawing.Point(950, 286);
+            this.guna2Button2.Location = new System.Drawing.Point(1267, 352);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(250, 60);
+            this.guna2Button2.Size = new System.Drawing.Size(333, 74);
             this.guna2Button2.TabIndex = 9;
             this.guna2Button2.Text = "guna2Button2";
             this.guna2Button2.UseTransparentBackground = true;
@@ -383,45 +285,14 @@ namespace SIGDEN
             this.guna2PictureBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(35)))));
             this.guna2PictureBox3.Image = global::SIGDEN.Properties.Resources._6;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(907, 71);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(1209, 87);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(339, 321);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(452, 395);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 1;
             this.guna2PictureBox3.TabStop = false;
             this.guna2PictureBox3.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.BorderRadius = 10;
-            this.guna2PictureBox4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.guna2PictureBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(35)))));
-            this.guna2PictureBox4.Image = global::SIGDEN.Properties.Resources._7;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(9, 3);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(339, 321);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox4.TabIndex = 1;
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox6
-            // 
-            this.guna2PictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox6.BorderRadius = 10;
-            this.guna2PictureBox6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.guna2PictureBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(35)))));
-            this.guna2PictureBox6.Image = global::SIGDEN.Properties.Resources.Logio;
-            this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(14, 0);
-            this.guna2PictureBox6.Name = "guna2PictureBox6";
-            this.guna2PictureBox6.Size = new System.Drawing.Size(339, 321);
-            this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox6.TabIndex = 1;
-            this.guna2PictureBox6.TabStop = false;
-            this.guna2PictureBox6.UseTransparentBackground = true;
             // 
             // guna2PictureBox1
             // 
@@ -431,8 +302,9 @@ namespace SIGDEN
             this.guna2PictureBox1.Image = global::SIGDEN.Properties.Resources.Steban;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1386, 788);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(1942, 985);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -443,11 +315,12 @@ namespace SIGDEN
             this.guna2PictureBox2.BorderRadius = 15;
             this.guna2PictureBox2.Cursor = System.Windows.Forms.Cursors.Default;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(35)))));
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.Image = global::SIGDEN.Properties.Resources._5;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(355, 71);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(473, 87);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(339, 321);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(452, 395);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 1;
             this.guna2PictureBox2.TabStop = false;
@@ -455,35 +328,26 @@ namespace SIGDEN
             // 
             // FrmMedicamentos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1386, 788);
-            this.Controls.Add(this.contenedo6);
-            this.Controls.Add(this.contenedor3);
-            this.Controls.Add(this.contenedor5);
-            this.Controls.Add(this.contenedor2);
-            this.Controls.Add(this.contenedor4);
-            this.Controls.Add(this.contenedor1);
-=======
-            this.ClientSize = new System.Drawing.Size(1502, 800);
+            this.ClientSize = new System.Drawing.Size(1942, 985);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2PictureBox3);
             this.Controls.Add(this.guna2ShadowPanel2);
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.guna2ShadowPanel3);
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmMedicamentos";
             this.Text = "FrmMedicamentos";
             this.guna2ShadowPanel1.ResumeLayout(false);
-            this.guna2ShadowPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
+            this.guna2ShadowPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.ResumeLayout(false);
