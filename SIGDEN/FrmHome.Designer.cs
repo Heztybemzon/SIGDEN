@@ -70,6 +70,7 @@ namespace SIGDEN
             this.BtnReport = new Guna.UI2.WinForms.Guna2Button();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -89,11 +90,13 @@ namespace SIGDEN
             this.guna2Panel8.SuspendLayout();
             this.PanelSubMenu.SuspendLayout();
             this.guna2Panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.GhostWhite;
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox5);
             this.guna2Panel1.Controls.Add(this.guna2Panel16);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox4);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox3);
@@ -110,9 +113,9 @@ namespace SIGDEN
             // guna2Panel16
             // 
             this.guna2Panel16.BorderRadius = 50;
-            this.guna2Panel16.Location = new System.Drawing.Point(234, 566);
+            this.guna2Panel16.Location = new System.Drawing.Point(234, 557);
             this.guna2Panel16.Name = "guna2Panel16";
-            this.guna2Panel16.Size = new System.Drawing.Size(453, 203);
+            this.guna2Panel16.Size = new System.Drawing.Size(453, 212);
             this.guna2Panel16.TabIndex = 8;
             // 
             // guna2PictureBox4
@@ -121,9 +124,9 @@ namespace SIGDEN
             this.guna2PictureBox4.BorderRadius = 15;
             this.guna2PictureBox4.FillColor = System.Drawing.SystemColors.ActiveBorder;
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(790, 557);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(792, 547);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(472, 219);
+            this.guna2PictureBox4.Size = new System.Drawing.Size(426, 229);
             this.guna2PictureBox4.TabIndex = 7;
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
@@ -134,9 +137,9 @@ namespace SIGDEN
             this.guna2PictureBox3.BorderRadius = 10;
             this.guna2PictureBox3.FillColor = System.Drawing.SystemColors.ActiveBorder;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(224, 557);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(224, 547);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(472, 219);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(472, 229);
             this.guna2PictureBox3.TabIndex = 6;
             this.guna2PictureBox3.TabStop = false;
             this.guna2PictureBox3.UseTransparentBackground = true;
@@ -189,7 +192,7 @@ namespace SIGDEN
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1215, 39);
+            this.guna2Panel2.Size = new System.Drawing.Size(1421, 39);
             this.guna2Panel2.TabIndex = 1;
             // 
             // BtnMinimize
@@ -604,16 +607,29 @@ namespace SIGDEN
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(25)))), ((int)(((byte)(24)))));
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 703);
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 832);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1215, 45);
+            this.guna2Panel3.Size = new System.Drawing.Size(1421, 45);
             this.guna2Panel3.TabIndex = 3;
+            // 
+            // guna2PictureBox5
+            // 
+            this.guna2PictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox5.BorderRadius = 10;
+            this.guna2PictureBox5.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2PictureBox5.ImageRotate = 0F;
+            this.guna2PictureBox5.Location = new System.Drawing.Point(800, 557);
+            this.guna2PictureBox5.Name = "guna2PictureBox5";
+            this.guna2PictureBox5.Size = new System.Drawing.Size(411, 209);
+            this.guna2PictureBox5.TabIndex = 9;
+            this.guna2PictureBox5.TabStop = false;
+            this.guna2PictureBox5.UseTransparentBackground = true;
             // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1215, 748);
+            this.ClientSize = new System.Drawing.Size(1421, 877);
             this.Controls.Add(this.Sidebar);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel1);
@@ -642,6 +658,7 @@ namespace SIGDEN
             this.guna2Panel8.ResumeLayout(false);
             this.PanelSubMenu.ResumeLayout(false);
             this.guna2Panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -688,5 +705,6 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2Panel panelTarjeta1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel16;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
     }
 }
