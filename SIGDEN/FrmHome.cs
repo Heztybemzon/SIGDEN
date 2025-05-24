@@ -122,7 +122,7 @@ namespace SIGDEN
         {
             if (sidebarExpand)
             {
-                Sidebar.Width -= 15;
+                Sidebar.Width -= 25;
 
                 if (Sidebar.Width <= Sidebar.MinimumSize.Width)
                 {

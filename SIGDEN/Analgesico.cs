@@ -8,19 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-
 namespace SIGDEN
 {
-    public partial class FrmMedicamentos : Form
+    public partial class Analgesico : Form
     {
-        public FrmMedicamentos()
+        public Analgesico()
         {
             InitializeComponent();
-           
         }
 
-        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox4_Click(object sender, EventArgs e)
         {
 
         }
