@@ -45,10 +45,11 @@ namespace SIGDEN
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.PanelPastillas = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
-            this.ProgressBarEmergente = new System.Windows.Forms.ProgressBar();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.timerExpandirPanel = new System.Windows.Forms.Timer(this.components);
+            this.timerCargarBarra = new System.Windows.Forms.Timer(this.components);
             this.panelLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
@@ -265,7 +266,6 @@ namespace SIGDEN
             // 
             // PanelPastillas
             // 
-            this.PanelPastillas.Controls.Add(this.ProgressBarEmergente);
             this.PanelPastillas.Controls.Add(this.guna2PictureBox4);
             this.PanelPastillas.Controls.Add(this.guna2PictureBox1);
             this.PanelPastillas.Dock = System.Windows.Forms.DockStyle.Left;
@@ -273,13 +273,6 @@ namespace SIGDEN
             this.PanelPastillas.Name = "PanelPastillas";
             this.PanelPastillas.Size = new System.Drawing.Size(301, 435);
             this.PanelPastillas.TabIndex = 11;
-            // 
-            // ProgressBarEmergente
-            // 
-            this.ProgressBarEmergente.Location = new System.Drawing.Point(109, 115);
-            this.ProgressBarEmergente.Name = "ProgressBarEmergente";
-            this.ProgressBarEmergente.Size = new System.Drawing.Size(100, 23);
-            this.ProgressBarEmergente.TabIndex = 13;
             // 
             // guna2PictureBox4
             // 
@@ -365,8 +358,9 @@ namespace SIGDEN
         private Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel PanelPastillas;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private System.Windows.Forms.ProgressBar ProgressBarEmergente;
         private Guna.UI2.WinForms.Guna2GradientButton btnIniciarSesión;
+        private System.Windows.Forms.Timer timerExpandirPanel;
+        private System.Windows.Forms.Timer timerCargarBarra;
     }
 }
 

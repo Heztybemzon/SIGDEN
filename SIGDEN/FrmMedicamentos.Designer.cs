@@ -69,7 +69,7 @@ namespace SIGDEN
             // 
             this.contenedor4.Controls.Add(this.guna2PictureBox5);
             this.contenedor4.Location = new System.Drawing.Point(57, 369);
-            this.contenedor4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.contenedor4.Margin = new System.Windows.Forms.Padding(2);
             this.contenedor4.Name = "contenedor4";
             this.contenedor4.Size = new System.Drawing.Size(230, 222);
             this.contenedor4.TabIndex = 1;
@@ -79,7 +79,7 @@ namespace SIGDEN
             this.guna2PictureBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2PictureBox5.ImageRotate = 0F;
             this.guna2PictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
             this.guna2PictureBox5.Size = new System.Drawing.Size(230, 222);
             this.guna2PictureBox5.TabIndex = 1;
@@ -98,7 +98,7 @@ namespace SIGDEN
             // 
             this.contenedor5.Controls.Add(this.guna2PictureBox6);
             this.contenedor5.Location = new System.Drawing.Point(378, 369);
-            this.contenedor5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.contenedor5.Margin = new System.Windows.Forms.Padding(2);
             this.contenedor5.Name = "contenedor5";
             this.contenedor5.Size = new System.Drawing.Size(230, 222);
             this.contenedor5.TabIndex = 1;
@@ -108,7 +108,7 @@ namespace SIGDEN
             this.guna2PictureBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2PictureBox6.ImageRotate = 0F;
             this.guna2PictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.Size = new System.Drawing.Size(230, 222);
             this.guna2PictureBox6.TabIndex = 1;
@@ -127,7 +127,7 @@ namespace SIGDEN
             // 
             this.contenedo6.Controls.Add(this.guna2PictureBox7);
             this.contenedo6.Location = new System.Drawing.Point(698, 369);
-            this.contenedo6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.contenedo6.Margin = new System.Windows.Forms.Padding(2);
             this.contenedo6.Name = "contenedo6";
             this.contenedo6.Size = new System.Drawing.Size(230, 222);
             this.contenedo6.TabIndex = 1;
@@ -137,7 +137,7 @@ namespace SIGDEN
             this.guna2PictureBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2PictureBox7.ImageRotate = 0F;
             this.guna2PictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox7.Name = "guna2PictureBox7";
             this.guna2PictureBox7.Size = new System.Drawing.Size(230, 222);
             this.guna2PictureBox7.TabIndex = 1;
@@ -156,7 +156,7 @@ namespace SIGDEN
             // 
             this.contenedor3.Controls.Add(this.guna2PictureBox4);
             this.contenedor3.Location = new System.Drawing.Point(698, 66);
-            this.contenedor3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.contenedor3.Margin = new System.Windows.Forms.Padding(2);
             this.contenedor3.Name = "contenedor3";
             this.contenedor3.Size = new System.Drawing.Size(230, 222);
             this.contenedor3.TabIndex = 1;
@@ -166,7 +166,7 @@ namespace SIGDEN
             this.guna2PictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2PictureBox4.ImageRotate = 0F;
             this.guna2PictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(230, 222);
             this.guna2PictureBox4.TabIndex = 1;
@@ -185,7 +185,7 @@ namespace SIGDEN
             // 
             this.contenedor2.Controls.Add(this.guna2PictureBox3);
             this.contenedor2.Location = new System.Drawing.Point(378, 66);
-            this.contenedor2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.contenedor2.Margin = new System.Windows.Forms.Padding(2);
             this.contenedor2.Name = "contenedor2";
             this.contenedor2.Size = new System.Drawing.Size(230, 222);
             this.contenedor2.TabIndex = 1;
@@ -195,7 +195,7 @@ namespace SIGDEN
             this.guna2PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.Size = new System.Drawing.Size(230, 222);
             this.guna2PictureBox3.TabIndex = 1;
@@ -214,7 +214,7 @@ namespace SIGDEN
             // 
             this.contenedor1.Controls.Add(this.guna2PictureBox2);
             this.contenedor1.Location = new System.Drawing.Point(57, 66);
-            this.contenedor1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.contenedor1.Margin = new System.Windows.Forms.Padding(2);
             this.contenedor1.Name = "contenedor1";
             this.contenedor1.Size = new System.Drawing.Size(230, 222);
             this.contenedor1.TabIndex = 0;
@@ -224,7 +224,7 @@ namespace SIGDEN
             this.guna2PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(230, 222);
             this.guna2PictureBox2.TabIndex = 0;
@@ -258,7 +258,7 @@ namespace SIGDEN
             this.guna2PictureBox1.ImageRotate = 90F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1502, 800);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(1386, 788);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -267,7 +267,7 @@ namespace SIGDEN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1502, 800);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
             this.Controls.Add(this.contenedo6);
             this.Controls.Add(this.contenedor3);
             this.Controls.Add(this.contenedor5);
