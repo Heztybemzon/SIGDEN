@@ -73,6 +73,12 @@
     <Compile Include="FrmSobreNostros.Designer.cs">
       <DependentUpon>FrmSobreNostros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSobreNostros.resx">
       <DependentUpon>FrmSobreNostros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -254,6 +263,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo SIDGEN %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esperando-la-entrevista.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
