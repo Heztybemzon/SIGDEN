@@ -255,5 +255,11 @@
   <ItemGroup>
     <None Include="Resources\Logo SIDGEN %2811%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GIF1.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
