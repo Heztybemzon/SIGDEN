@@ -253,28 +253,13 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-        internal static System.Drawing.Bitmap esperando_la_entrevista {
-            get {
-                object obj = ResourceManager.GetObject("esperando_la_entrevista", resourceCulture);
-=======
-        internal static System.Drawing.Bitmap GIF {
-            get {
-                object obj = ResourceManager.GetObject("GIF", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+
+ 
         
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GIF1 {
-            get {
-                object obj = ResourceManager.GetObject("GIF1", resourceCulture);
->>>>>>> 0a30b0f8ca579557465b25f5b4fcf4c57c98fcd1
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+
         
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
