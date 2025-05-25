@@ -265,7 +265,14 @@
     <None Include="Resources\Logo SIDGEN %2811%29.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\esperando-la-entrevista.gif" />
+=======
+    <None Include="Resources\GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GIF1.gif" />
+>>>>>>> 0a30b0f8ca579557465b25f5b4fcf4c57c98fcd1
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
