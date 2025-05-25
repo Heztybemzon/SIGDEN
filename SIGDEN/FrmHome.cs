@@ -157,7 +157,7 @@ namespace SIGDEN
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             panelContainer.Controls.Clear();
-            panelContainer.Left += 10;
+            panelContainer.Left += 18;
             FrmSobreNostros formulario = new FrmSobreNostros();
             formulario.TopLevel = false;
             formulario.Dock = DockStyle.Fill;

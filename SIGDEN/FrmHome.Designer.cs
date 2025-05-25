@@ -108,9 +108,9 @@ namespace SIGDEN
             this.panelContainer.Controls.Add(this.guna2Panel15);
             this.panelContainer.Controls.Add(this.guna2PictureBox2);
             this.panelContainer.Controls.Add(this.guna2PictureBox1);
-            this.panelContainer.Location = new System.Drawing.Point(71, 61);
+            this.panelContainer.Location = new System.Drawing.Point(52, 61);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1888, 1000);
+            this.panelContainer.Size = new System.Drawing.Size(1907, 1000);
             this.panelContainer.TabIndex = 0;
             // 
             // guna2PictureBox5

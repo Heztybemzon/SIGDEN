@@ -30,7 +30,7 @@ namespace SIGDEN
 
             if (dr.Read() == true)
             {
-                new FrmMedicamentos().Show();
+                new FrmHome().Show();
                 this.Hide();
             }
             else

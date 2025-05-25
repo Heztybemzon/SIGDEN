@@ -39,7 +39,7 @@ namespace SIGDEN
             this.cBMostrarContraseña = new Guna.UI2.WinForms.Guna2CheckBox();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.PanelPastillas = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
-            this.ProgressBarEmergente = new System.Windows.Forms.ProgressBar();
+           
             this.guna2PictureBox10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -49,13 +49,10 @@ namespace SIGDEN
             this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-<<<<<<< HEAD
-            this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
-            this.PanelPastillas = new Siticone.Desktop.UI.WinForms.SiticoneCustomGradientPanel();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-=======
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
+
+            
+            
+
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.timerExpandirPanel = new System.Windows.Forms.Timer(this.components);
             this.timerCargarBarra = new System.Windows.Forms.Timer(this.components);
@@ -203,7 +200,7 @@ namespace SIGDEN
             // PanelPastillas
             // 
             this.PanelPastillas.Controls.Add(this.guna2PictureBox10);
-            this.PanelPastillas.Controls.Add(this.ProgressBarEmergente);
+          
             this.PanelPastillas.Controls.Add(this.guna2PictureBox4);
             this.PanelPastillas.Controls.Add(this.guna2PictureBox1);
             this.PanelPastillas.Dock = System.Windows.Forms.DockStyle.Left;
@@ -214,10 +211,7 @@ namespace SIGDEN
             // 
             // ProgressBarEmergente
             // 
-            this.ProgressBarEmergente.Location = new System.Drawing.Point(109, 115);
-            this.ProgressBarEmergente.Name = "ProgressBarEmergente";
-            this.ProgressBarEmergente.Size = new System.Drawing.Size(100, 23);
-            this.ProgressBarEmergente.TabIndex = 13;
+         
             // 
             // guna2PictureBox10
             // 
@@ -330,7 +324,7 @@ namespace SIGDEN
             this.guna2PictureBox3.TabIndex = 9;
             this.guna2PictureBox3.TabStop = false;
             // 
-<<<<<<< HEAD
+
             // siticoneBorderlessForm1
             // 
             this.siticoneBorderlessForm1.BorderRadius = 40;
@@ -372,8 +366,7 @@ namespace SIGDEN
             this.guna2PictureBox1.TabIndex = 11;
             this.guna2PictureBox1.TabStop = false;
             // 
-=======
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
+
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.ImageRotate = 0F;
@@ -436,12 +429,12 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2GradientButton btnIniciarSesión;
-<<<<<<< HEAD
+
         private System.Windows.Forms.Timer timerExpandirPanel;
         private System.Windows.Forms.Timer timerCargarBarra;
-=======
+
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox10;
->>>>>>> 8891512052a278f716e245797f0b9598fa5f461b
+
     }
 }
 
