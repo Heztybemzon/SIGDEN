@@ -153,5 +153,24 @@ namespace SIGDEN
             panelContainer.Controls.Add(formulario);
             formulario.Show();
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            panelContainer.Controls.Clear();
+            panelContainer.Left += 10;
+            FrmSobreNostros formulario = new FrmSobreNostros();
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+
+
+            panelContainer.Controls.Add(formulario);
+            formulario.Show();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            FrmHome S = new FrmHome();
+            S.Show();
+        }
     }
     }

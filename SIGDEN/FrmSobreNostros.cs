@@ -17,9 +17,9 @@ namespace SIGDEN
             InitializeComponent();
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
         {
-
+            this.guna2GradientPanel1.Location = new Point(0, 0);
         }
     }
 }

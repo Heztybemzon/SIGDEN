@@ -64,10 +64,11 @@ namespace SIGDEN
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(45)))), ((int)(((byte)(32)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(-85, -1);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1502, 173);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1653, 174);
             this.guna2GradientPanel1.TabIndex = 19;
+            this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
             // 
             // guna2Panel1
             // 
@@ -75,7 +76,6 @@ namespace SIGDEN
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(70, 8);
             this.guna2Panel1.TabIndex = 3;
-            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // guna2Panel2
             // 
@@ -133,10 +133,10 @@ namespace SIGDEN
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(254)))), ((int)(((byte)(230)))));
-            this.label5.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(163, 442);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(309, 207);
+            this.label5.Size = new System.Drawing.Size(308, 216);
             this.label5.TabIndex = 27;
             this.label5.Text = resources.GetString("label5.Text");
             // 
@@ -144,10 +144,10 @@ namespace SIGDEN
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(254)))), ((int)(((byte)(230)))));
-            this.label6.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(502, 440);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(314, 184);
+            this.label6.Size = new System.Drawing.Size(316, 192);
             this.label6.TabIndex = 28;
             this.label6.Text = resources.GetString("label6.Text");
             // 
@@ -155,11 +155,11 @@ namespace SIGDEN
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(45)))), ((int)(((byte)(32)))));
-            this.label7.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(944, 415);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(404, 276);
+            this.label7.Size = new System.Drawing.Size(403, 288);
             this.label7.TabIndex = 29;
             this.label7.Text = resources.GetString("label7.Text");
             // 
@@ -234,7 +234,7 @@ namespace SIGDEN
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(1502, 800);
+            this.ClientSize = new System.Drawing.Size(1215, 748);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.guna2Panel2);
