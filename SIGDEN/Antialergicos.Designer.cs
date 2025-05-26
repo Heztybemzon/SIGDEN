@@ -107,7 +107,7 @@ namespace SIGDEN
             this.guna2ShadowPanel3.Controls.Add(this.guna2Panel5);
             this.guna2ShadowPanel3.Controls.Add(this.guna2Panel6);
             this.guna2ShadowPanel3.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel3.Location = new System.Drawing.Point(187, 242);
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(187, 253);
             this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
             this.guna2ShadowPanel3.Radius = 10;
             this.guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black;
@@ -153,7 +153,7 @@ namespace SIGDEN
             this.guna2ShadowPanel1.Controls.Add(this.guna2Panel1);
             this.guna2ShadowPanel1.Controls.Add(this.guna2Panel2);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(631, 242);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(631, 253);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 10;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
@@ -199,7 +199,7 @@ namespace SIGDEN
             this.guna2ShadowPanel2.Controls.Add(this.guna2Panel3);
             this.guna2ShadowPanel2.Controls.Add(this.guna2Panel4);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(1074, 242);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(1074, 253);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 10;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
@@ -270,9 +270,9 @@ namespace SIGDEN
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = global::SIGDEN.Properties.Resources.Loratadina_10_mg;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(-58, -40);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(-51, 17);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(455, 444);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(441, 387);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 0;
             this.guna2PictureBox3.TabStop = false;
