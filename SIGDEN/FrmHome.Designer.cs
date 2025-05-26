@@ -690,9 +690,9 @@ namespace SIGDEN
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.Silver;
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 871);
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 754);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1595, 34);
+            this.guna2Panel3.Size = new System.Drawing.Size(1386, 34);
             this.guna2Panel3.TabIndex = 3;
             // 
             // timer1
