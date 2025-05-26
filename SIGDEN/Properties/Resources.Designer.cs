@@ -213,6 +213,16 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga__1_ {
+            get {
+                object obj = ResourceManager.GetObject("descarga (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Dios_Padre {
             get {
                 object obj = ResourceManager.GetObject("Dios Padre", resourceCulture);
@@ -253,13 +263,52 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-
- 
+        internal static System.Drawing.Bitmap esperando_la_entrevista {
+            get {
+                object obj = ResourceManager.GetObject("esperando_la_entrevista", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-
+        internal static System.Drawing.Bitmap GIF {
+            get {
+                object obj = ResourceManager.GetObject("GIF", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GIF1 {
+            get {
+                object obj = ResourceManager.GetObject("GIF1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2025_05_25_a_las_14_10_39_2984b1a1 {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de WhatsApp 2025-05-25 a las 14.10.39_2984b1a1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2025_05_25_a_las_14_10_40_2d9f1142 {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de WhatsApp 2025-05-25 a las 14.10.40_2d9f1142", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
