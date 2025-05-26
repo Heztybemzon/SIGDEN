@@ -35,6 +35,8 @@ namespace SIGDEN
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.Hora = new System.Windows.Forms.Label();
             this.Fecha = new System.Windows.Forms.Label();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -75,8 +77,6 @@ namespace SIGDEN
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
             this.panelContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
@@ -156,6 +156,22 @@ namespace SIGDEN
             this.guna2Panel16.TabIndex = 8;
             this.guna2Panel16.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel16_Paint);
             // 
+            // guna2Panel17
+            // 
+            this.guna2Panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(76)))), ((int)(((byte)(51)))));
+            this.guna2Panel17.Location = new System.Drawing.Point(350, 23);
+            this.guna2Panel17.Name = "guna2Panel17";
+            this.guna2Panel17.Size = new System.Drawing.Size(60, 6);
+            this.guna2Panel17.TabIndex = 5;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(76)))), ((int)(((byte)(51)))));
+            this.guna2Panel1.Location = new System.Drawing.Point(117, 100);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(60, 6);
+            this.guna2Panel1.TabIndex = 4;
+            // 
             // Hora
             // 
             this.Hora.AutoSize = true;
@@ -171,12 +187,12 @@ namespace SIGDEN
             // Fecha
             // 
             this.Fecha.AutoSize = true;
-            this.Fecha.Font = new System.Drawing.Font("Fugaz One", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(28)))));
             this.Fecha.Location = new System.Drawing.Point(101, 20);
             this.Fecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Fecha.Name = "Fecha";
-            this.Fecha.Size = new System.Drawing.Size(222, 94);
+            this.Fecha.Size = new System.Drawing.Size(204, 73);
             this.Fecha.TabIndex = 0;
             this.Fecha.Text = "label1";
             // 
@@ -558,6 +574,7 @@ namespace SIGDEN
             this.guna2Button7.Size = new System.Drawing.Size(217, 40);
             this.guna2Button7.TabIndex = 4;
             this.guna2Button7.Text = "MEDICAMENTOS";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2Button6
             // 
@@ -576,6 +593,7 @@ namespace SIGDEN
             this.guna2Button6.Size = new System.Drawing.Size(217, 40);
             this.guna2Button6.TabIndex = 3;
             this.guna2Button6.Text = "FICHA MÉDICA";
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button4
             // 
@@ -681,22 +699,6 @@ namespace SIGDEN
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(76)))), ((int)(((byte)(51)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(117, 100);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(60, 6);
-            this.guna2Panel1.TabIndex = 4;
-            // 
-            // guna2Panel17
-            // 
-            this.guna2Panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(76)))), ((int)(((byte)(51)))));
-            this.guna2Panel17.Location = new System.Drawing.Point(350, 23);
-            this.guna2Panel17.Name = "guna2Panel17";
-            this.guna2Panel17.Size = new System.Drawing.Size(60, 6);
-            this.guna2Panel17.TabIndex = 5;
-            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -711,6 +713,7 @@ namespace SIGDEN
             this.Name = "FrmHome";
             this.Text = "Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmHome_Load);
             this.panelContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
