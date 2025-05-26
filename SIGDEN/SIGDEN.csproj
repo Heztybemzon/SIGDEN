@@ -112,6 +112,12 @@
     <Compile Include="Analgesicos.Designer.cs">
       <DependentUpon>Analgesicos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Antialergicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antialergicos.Designer.cs">
+      <DependentUpon>Antialergicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +194,9 @@
     </Compile>
     <EmbeddedResource Include="Analgesicos.resx">
       <DependentUpon>Analgesicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antialergicos.resx">
+      <DependentUpon>Antialergicos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
