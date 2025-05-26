@@ -16,7 +16,7 @@ namespace SIGDEN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Gastro_Protectores());
+            Application.Run(new Tabla_Pacientes());
         }
     }
 }
