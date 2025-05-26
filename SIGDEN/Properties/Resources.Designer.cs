@@ -413,6 +413,16 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GIF2 {
+            get {
+                object obj = ResourceManager.GetObject("GIF2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2025_05_25_a_las_14_10_39_2984b1a1 {
             get {
                 object obj = ResourceManager.GetObject("Imagen de WhatsApp 2025-05-25 a las 14.10.39_2984b1a1", resourceCulture);
@@ -506,6 +516,16 @@ namespace SIGDEN.Properties {
         internal static System.Drawing.Bitmap Logo_SIDGEN__14_ {
             get {
                 object obj = ResourceManager.GetObject("Logo SIDGEN (14)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_SIDGEN__15_ {
+            get {
+                object obj = ResourceManager.GetObject("Logo SIDGEN (15)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

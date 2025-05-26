@@ -139,8 +139,8 @@
   <data name="GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CETIRIZINA-10MG-IF-100-TABLETAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CETIRIZINA-10MG-IF-100-TABLETAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo SIDGEN (11)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SIDGEN (11)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cerrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cerrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -159,6 +159,9 @@
   </data>
   <data name="Ajaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ajaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14419-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14419-01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="esperando_la_entrevista" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\esperando-la-entrevista.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,9 +193,6 @@
   <data name="lista" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Oker" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Oker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Dalee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dalee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,8 +214,8 @@
   <data name="CUIDANDO TU SALUD (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CUIDANDO TU SALUD (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo SIDGEN (11)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo SIDGEN (11)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Oker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="base-de-datos (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base-de-datos (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,6 +274,9 @@
   <data name="cuadrado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cuadrado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Steban" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Steban.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -291,6 +294,9 @@
   </data>
   <data name="prescripcion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\prescripcion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo SIDGEN (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SIDGEN (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lista (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lista (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,10 +316,10 @@
   <data name="signo-menos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\signo-menos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CETIRIZINA-10MG-IF-100-TABLETAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CETIRIZINA-10MG-IF-100-TABLETAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="14419-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14419-01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GIF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GIF3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
