@@ -50,6 +50,9 @@ namespace SIGDEN
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -139,7 +142,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(28)))));
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1620, 156);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1386, 156);
             this.guna2CustomGradientPanel1.TabIndex = 3;
             // 
             // guna2GradientPanel1
@@ -274,17 +277,6 @@ namespace SIGDEN
             this.guna2Panel5.Size = new System.Drawing.Size(333, 62);
             this.guna2Panel5.TabIndex = 4;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(81, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(162, 37);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Albendazol";
-            // 
             // guna2Panel6
             // 
             this.guna2Panel6.BackColor = System.Drawing.Color.Transparent;
@@ -297,12 +289,46 @@ namespace SIGDEN
             this.guna2Panel6.Size = new System.Drawing.Size(333, 406);
             this.guna2Panel6.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.Location = new System.Drawing.Point(85, 6);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(158, 37);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Omeprazol";
+            // 
+            // label2
+            // 
+            this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(1294, 755);
+            this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
+            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(92, 15);
+            this.siticoneHtmlLabel3.TabIndex = 8;
+            this.siticoneHtmlLabel3.Text = "siticoneHtmlLabel3";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label3.Location = new System.Drawing.Point(89, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(141, 37);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Antiácido";
+            // 
             // Gastro_Protectores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1620, 920);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.Controls.Add(this.siticoneHtmlLabel3);
+            this.Controls.Add(this.siticoneHtmlLabel2);
+            this.Controls.Add(this.siticoneHtmlLabel1);
             this.Controls.Add(this.guna2ShadowPanel2);
             this.Controls.Add(this.guna2ShadowPanel3);
             this.Controls.Add(this.guna2CustomGradientPanel1);
@@ -329,6 +355,7 @@ namespace SIGDEN
             this.guna2Panel5.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -354,5 +381,8 @@ namespace SIGDEN
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel3;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
     }
 }
