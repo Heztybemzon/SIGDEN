@@ -106,6 +106,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analgesicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analgesicos.Designer.cs">
+      <DependentUpon>Analgesicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     <Compile Include="Visitas Enfermería.Designer.cs">
       <DependentUpon>Visitas Enfermería.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Analgesicos.resx">
+      <DependentUpon>Analgesicos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -323,6 +332,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\73459d40c98f4c1d92ff4e482ba7b3ff_01022023011453.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SIDGEN %2811%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acetaminofen-650.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diclofenac.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ponstant.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
