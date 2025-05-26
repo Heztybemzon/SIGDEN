@@ -270,7 +270,7 @@ namespace SIGDEN
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1595, 38);
+            this.guna2Panel2.Size = new System.Drawing.Size(1386, 38);
             this.guna2Panel2.TabIndex = 1;
             // 
             // BtnMinimize
@@ -704,7 +704,7 @@ namespace SIGDEN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1595, 905);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
             this.Controls.Add(this.Sidebar);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.panelContainer);
