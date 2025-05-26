@@ -13,15 +13,18 @@ using System.Runtime.InteropServices;
 namespace SIGDEN
 {
     public partial class FrmHome : Form
-    {   
+    {
+        Point posicionOriginal;
         bool sidebarExpand;
 
         public FrmHome()
         {
             InitializeComponent();
             customizeDesing();
-        }
+            
 
+        }
+      
 
         private void customizeDesing()
         {
@@ -51,19 +54,44 @@ namespace SIGDEN
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            //Códigos para llamar al formulario 
+            panelContainer.Controls.Clear();
+            panelContainer.Location = posicionOriginal;
+            panelContainer.Left += 170;
+            Tabla_Pacientes formulario = new Tabla_Pacientes();
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+
+
+            panelContainer.Controls.Add(formulario);
+            formulario.Show();
             hideSubMenu();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            //Códigos para llamar al formulario 
+            panelContainer.Controls.Clear();
+            panelContainer.Location = posicionOriginal;
+            panelContainer.Left += 400;
+
+            Visitas_Enfermería formulario = new Visitas_Enfermería();
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(formulario);
+            formulario.Show();
             hideSubMenu();
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            //Códigos para llamar al formulario 
+            panelContainer.Controls.Clear();
+            panelContainer.Location = posicionOriginal;
+            panelContainer.Left += 400;
+
+            Tabla_Medicamentos formulario = new Tabla_Medicamentos();
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(formulario);
+            formulario.Show();
             hideSubMenu();
         }
 
@@ -144,6 +172,7 @@ namespace SIGDEN
 
         private void BtnMedicamento_Click(object sender, EventArgs e)
         {
+             
             panelContainer.Controls.Clear();
             FrmMedicamentos formulario = new FrmMedicamentos();
             formulario.TopLevel = false;
@@ -157,6 +186,7 @@ namespace SIGDEN
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             panelContainer.Controls.Clear();
+            panelContainer.Location = posicionOriginal;
             panelContainer.Left += 18;
             FrmSobreNostros formulario = new FrmSobreNostros();
             formulario.TopLevel = false;
@@ -176,6 +206,36 @@ namespace SIGDEN
         private void guna2Panel16_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            panelContainer.Controls.Clear();
+            panelContainer.Location = posicionOriginal;
+            panelContainer.Left += 400;
+
+            Tabla_Fecha_Médica formulario = new Tabla_Fecha_Médica();
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(formulario);
+            formulario.Show();
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            panelContainer.Controls.Clear();
+            panelContainer.Location = posicionOriginal;
+            panelContainer.Left += 400;
+            Tabla_Medicamentos formulario = new Tabla_Medicamentos();
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(formulario);
+            formulario.Show();
+        }
+
+        private void FrmHome_Load(object sender, EventArgs e)
+        {
+            posicionOriginal = panelContainer.Location;
         }
     }
     }
