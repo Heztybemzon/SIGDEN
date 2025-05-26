@@ -193,6 +193,9 @@
   <data name="lista" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logo SIDGEN (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SIDGEN (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Dalee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dalee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -274,17 +277,14 @@
   <data name="cuadrado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cuadrado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Steban" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Steban.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo SIDGEN (4) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SIDGEN (4) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo SIDGEN (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo SIDGEN (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CETIRIZINA-10MG-IF-100-TABLETAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CETIRIZINA-10MG-IF-100-TABLETAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="acetaminofen-650" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\acetaminofen-650.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,10 +316,16 @@
   <data name="signo-menos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\signo-menos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CETIRIZINA-10MG-IF-100-TABLETAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CETIRIZINA-10MG-IF-100-TABLETAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Imagen de WhatsApp 2025-05-26 a las 14.53.19_9af2fbe9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen de WhatsApp 2025-05-26 a las 14.53.19_9af2fbe9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GIF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GIF3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen_de_WhatsApp_2025-05-26_a_las_14.53.19_9af2fbe9-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen_de_WhatsApp_2025-05-26_a_las_14.53.19_9af2fbe9-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

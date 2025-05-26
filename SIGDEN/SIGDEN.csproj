@@ -372,5 +372,11 @@
   <ItemGroup>
     <None Include="Resources\GIF3.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de WhatsApp 2025-05-26 a las 14.53.19_9af2fbe9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_de_WhatsApp_2025-05-26_a_las_14.53.19_9af2fbe9-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
