@@ -253,7 +253,6 @@ namespace SIGDEN
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::SIGDEN.Properties.Resources.Logoo;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(527, -11);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
@@ -690,99 +689,15 @@ namespace SIGDEN
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.Silver;
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 871);
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 754);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1595, 34);
+            this.guna2Panel3.Size = new System.Drawing.Size(1386, 34);
             this.guna2Panel3.TabIndex = 3;
             // 
-            // guna2PictureBox4
+            // timer1
             // 
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.BorderRadius = 15;
-            this.guna2PictureBox4.FillColor = System.Drawing.SystemColors.ControlDark;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(267, 509);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(503, 273);
-            this.guna2PictureBox4.TabIndex = 7;
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.BorderRadius = 10;
-            this.guna2PictureBox3.FillColor = System.Drawing.SystemColors.ControlDark;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(847, 539);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(450, 229);
-            this.guna2PictureBox3.TabIndex = 6;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.BorderRadius = 50;
-            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Image = global::SIGDEN.Properties.Resources.That_thing;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(102, 128);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(1365, 461);
-            this.guna2PictureBox2.TabIndex = 1;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::SIGDEN.Properties.Resources.Logoo;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(527, -11);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(489, 155);
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // BtnMinimize
-            // 
-            this.BtnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnMinimize.Image = global::SIGDEN.Properties.Resources.signo_menos;
-            this.BtnMinimize.ImageRotate = 0F;
-            this.BtnMinimize.Location = new System.Drawing.Point(1495, 11);
-            this.BtnMinimize.Name = "BtnMinimize";
-            this.BtnMinimize.Size = new System.Drawing.Size(12, 12);
-            this.BtnMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BtnMinimize.TabIndex = 4;
-            this.BtnMinimize.TabStop = false;
-            this.BtnMinimize.Click += new System.EventHandler(this.BtnMinimize_Click);
-            // 
-            // BtnMaximize
-            // 
-            this.BtnMaximize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnMaximize.Image = global::SIGDEN.Properties.Resources.minimizar;
-            this.BtnMaximize.ImageRotate = 0F;
-            this.BtnMaximize.Location = new System.Drawing.Point(1531, 11);
-            this.BtnMaximize.Name = "BtnMaximize";
-            this.BtnMaximize.Size = new System.Drawing.Size(14, 15);
-            this.BtnMaximize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BtnMaximize.TabIndex = 3;
-            this.BtnMaximize.TabStop = false;
-            this.BtnMaximize.Click += new System.EventHandler(this.BtnMaximize_Click);
-            // 
-            // BtnClose
-            // 
-            this.BtnClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnClose.Image = global::SIGDEN.Properties.Resources.cerrar;
-            this.BtnClose.ImageRotate = 0F;
-            this.BtnClose.Location = new System.Drawing.Point(1565, 13);
-            this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(12, 12);
-            this.BtnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BtnClose.TabIndex = 0;
-            this.BtnClose.TabStop = false;
-            this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
             // FrmHome
             // 
