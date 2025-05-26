@@ -150,16 +150,16 @@ namespace SIGDEN
             this.guna2Panel16.Controls.Add(this.guna2Panel1);
             this.guna2Panel16.Controls.Add(this.Hora);
             this.guna2Panel16.Controls.Add(this.Fecha);
-            this.guna2Panel16.Location = new System.Drawing.Point(821, 556);
+            this.guna2Panel16.Location = new System.Drawing.Point(854, 557);
             this.guna2Panel16.Name = "guna2Panel16";
-            this.guna2Panel16.Size = new System.Drawing.Size(520, 215);
+            this.guna2Panel16.Size = new System.Drawing.Size(435, 215);
             this.guna2Panel16.TabIndex = 8;
             this.guna2Panel16.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel16_Paint);
             // 
             // guna2Panel17
             // 
             this.guna2Panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(76)))), ((int)(((byte)(51)))));
-            this.guna2Panel17.Location = new System.Drawing.Point(350, 23);
+            this.guna2Panel17.Location = new System.Drawing.Point(305, 19);
             this.guna2Panel17.Name = "guna2Panel17";
             this.guna2Panel17.Size = new System.Drawing.Size(60, 6);
             this.guna2Panel17.TabIndex = 5;
@@ -167,7 +167,7 @@ namespace SIGDEN
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(76)))), ((int)(((byte)(51)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(117, 100);
+            this.guna2Panel1.Location = new System.Drawing.Point(65, 103);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(60, 6);
             this.guna2Panel1.TabIndex = 4;
@@ -187,12 +187,12 @@ namespace SIGDEN
             // Fecha
             // 
             this.Fecha.AutoSize = true;
-            this.Fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fecha.Font = new System.Drawing.Font("Fugaz One", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(28)))));
-            this.Fecha.Location = new System.Drawing.Point(101, 20);
+            this.Fecha.Location = new System.Drawing.Point(51, 19);
             this.Fecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Fecha.Name = "Fecha";
-            this.Fecha.Size = new System.Drawing.Size(204, 73);
+            this.Fecha.Size = new System.Drawing.Size(222, 94);
             this.Fecha.TabIndex = 0;
             this.Fecha.Text = "label1";
             // 
@@ -215,9 +215,9 @@ namespace SIGDEN
             this.guna2PictureBox3.BorderRadius = 10;
             this.guna2PictureBox3.FillColor = System.Drawing.SystemColors.ControlDark;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(814, 549);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(847, 550);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(534, 229);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(450, 229);
             this.guna2PictureBox3.TabIndex = 6;
             this.guna2PictureBox3.TabStop = false;
             this.guna2PictureBox3.UseTransparentBackground = true;

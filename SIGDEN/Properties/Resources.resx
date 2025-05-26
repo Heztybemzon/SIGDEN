@@ -133,6 +133,9 @@
   <data name="paciente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\paciente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Gasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gasa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logoo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logoo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,8 +160,8 @@
   <data name="Logo SIDGEN (4) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SIDGEN (4) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo SIDGEN (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SIDGEN (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,11 +193,14 @@
   <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo SIDGEN (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo SIDGEN (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="seguro-de-salud" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seguro-de-salud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10775--58618_MED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10775--58618_MED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diseño sin título (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CUIDANDO TU SALUD (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CUIDANDO TU SALUD (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,11 +229,17 @@
   <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bolasalgodon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bolasalgodon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo SIDGEN (5) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SIDGEN (5) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Dios Padre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dios Padre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="71SplMgnc5L._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\71SplMgnc5L._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Dalee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dalee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -240,6 +252,9 @@
   </data>
   <data name="resumen-superficie-y-texturas-de-muro-de-piedra-de-hormigon-blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\resumen-superficie-y-texturas-de-muro-de-piedra-de-hormigon-blanco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eslogan SIGDEN (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eslogan SIGDEN (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo SIDGEN (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SIDGEN (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,6 +271,9 @@
   <data name="Logo SIDGEN (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SIDGEN (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="alkofarma-500-ml-510x5107414" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alkofarma-500-ml-510x5107414.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lista" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -271,7 +289,7 @@
   <data name="base-de-datos (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base-de-datos (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="10775--58618_MED" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10775--58618_MED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="73459d40c98f4c1d92ff4e482ba7b3ff_01022023011453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\73459d40c98f4c1d92ff4e482ba7b3ff_01022023011453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

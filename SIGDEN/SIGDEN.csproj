@@ -306,5 +306,23 @@
   <ItemGroup>
     <None Include="Resources\10775--58618_MED.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eslogan SIGDEN %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71SplMgnc5L._AC_UF1000,1000_QL80_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolasalgodon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gasa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alkofarma-500-ml-510x5107414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73459d40c98f4c1d92ff4e482ba7b3ff_01022023011453.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

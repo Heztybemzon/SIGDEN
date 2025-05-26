@@ -16,7 +16,11 @@ namespace SIGDEN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Application.Run(new Tabla_Pacientes());
+
+            Application.Run(new Material_de_Primeros_Auxilios());
+
         }
     }
 }

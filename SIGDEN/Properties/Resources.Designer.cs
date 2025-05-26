@@ -113,6 +113,26 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _71SplMgnc5L__AC_UF1000_1000_QL80_ {
+            get {
+                object obj = ResourceManager.GetObject("71SplMgnc5L._AC_UF1000,1000_QL80_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _73459d40c98f4c1d92ff4e482ba7b3ff_01022023011453 {
+            get {
+                object obj = ResourceManager.GetObject("73459d40c98f4c1d92ff4e482ba7b3ff_01022023011453", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8 {
             get {
                 object obj = ResourceManager.GetObject("8", resourceCulture);
@@ -133,9 +153,29 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap alkofarma_500_ml_510x5107414 {
+            get {
+                object obj = ResourceManager.GetObject("alkofarma-500-ml-510x5107414", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap base_de_datos__2_ {
             get {
                 object obj = ResourceManager.GetObject("base-de-datos (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bolasalgodon {
+            get {
+                object obj = ResourceManager.GetObject("bolasalgodon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +323,29 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Eslogan_SIGDEN__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Eslogan SIGDEN (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap esperando_la_entrevista {
             get {
                 object obj = ResourceManager.GetObject("esperando_la_entrevista", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gasa {
+            get {
+                object obj = ResourceManager.GetObject("Gasa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
