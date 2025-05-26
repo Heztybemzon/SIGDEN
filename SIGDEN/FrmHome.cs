@@ -173,6 +173,9 @@ namespace SIGDEN
             S.Show();
         }
 
-      
+        private void guna2Panel16_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     }

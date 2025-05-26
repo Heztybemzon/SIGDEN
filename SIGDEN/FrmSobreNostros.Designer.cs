@@ -62,8 +62,8 @@ namespace SIGDEN
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(70)))), ((int)(((byte)(46)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(45)))), ((int)(((byte)(32)))));
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.DarkGray;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(-85, -1);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1653, 174);
