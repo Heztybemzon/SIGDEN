@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SIGDEN
 {
-    public partial class Material_de_Primeros_Auxilios : Form
+    public partial class Analgesicos : Form
     {
-        public Material_de_Primeros_Auxilios()
+        public Analgesicos()
         {
             InitializeComponent();
-        }
-
-        private void guna2CustomGradientPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

@@ -106,6 +106,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analgesicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analgesicos.Designer.cs">
+      <DependentUpon>Analgesicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Antialergicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antialergicos.Designer.cs">
+      <DependentUpon>Antialergicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +192,12 @@
     <Compile Include="Visitas Enfermería.Designer.cs">
       <DependentUpon>Visitas Enfermería.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Analgesicos.resx">
+      <DependentUpon>Analgesicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antialergicos.resx">
+      <DependentUpon>Antialergicos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -305,6 +323,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\10775--58618_MED.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eslogan SIGDEN %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71SplMgnc5L._AC_UF1000,1000_QL80_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolasalgodon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gasa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alkofarma-500-ml-510x5107414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73459d40c98f4c1d92ff4e482ba7b3ff_01022023011453.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SIDGEN %2811%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acetaminofen-650.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diclofenac.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ponstant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SIDGEN %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loratadina-10-mg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CETIRIZINA-10MG-IF-100-TABLETAS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14419-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SIDGEN %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GIF3.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
