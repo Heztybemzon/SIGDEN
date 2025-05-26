@@ -151,6 +151,9 @@
   <data name="signo-menos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\signo-menos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Diseño sin título (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo SIDGEN (4) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SIDGEN (4) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,8 +169,8 @@
   <data name="Imagen de WhatsApp 2025-05-25 a las 14.10.40_2d9f1142" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagen de WhatsApp 2025-05-25 a las 14.10.40_2d9f1142.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CUIDANDO TU SALUD (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CUIDANDO TU SALUD (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GIF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GIF1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doctor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,11 +190,14 @@
   <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logo SIDGEN (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo SIDGEN (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="seguro-de-salud" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seguro-de-salud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GIF1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GIF1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CUIDANDO TU SALUD (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CUIDANDO TU SALUD (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo SIDGEN (3) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo SIDGEN (3) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,7 +271,7 @@
   <data name="base-de-datos (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base-de-datos (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="10775--58618_MED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10775--58618_MED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
