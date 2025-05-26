@@ -17,6 +17,9 @@ namespace SIGDEN
             InitializeComponent();
         }
 
-        
+        private void siticoneHtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
