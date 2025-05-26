@@ -354,5 +354,23 @@
   <ItemGroup>
     <None Include="Resources\Ponstant.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SIDGEN %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loratadina-10-mg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CETIRIZINA-10MG-IF-100-TABLETAS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14419-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo SIDGEN %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GIF3.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
