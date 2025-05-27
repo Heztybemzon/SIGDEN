@@ -51,7 +51,6 @@ namespace SIGDEN
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1.SuspendLayout();
@@ -307,15 +306,6 @@ namespace SIGDEN
             this.siticoneHtmlLabel2.TabIndex = 9;
             this.siticoneHtmlLabel2.Text = null;
             // 
-            // siticoneHtmlLabel3
-            // 
-            this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(1294, 755);
-            this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
-            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(92, 15);
-            this.siticoneHtmlLabel3.TabIndex = 8;
-            this.siticoneHtmlLabel3.Text = "siticoneHtmlLabel3";
-            // 
             // siticoneHtmlLabel1
             // 
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
@@ -342,7 +332,6 @@ namespace SIGDEN
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1386, 788);
-            this.Controls.Add(this.siticoneHtmlLabel3);
             this.Controls.Add(this.siticoneHtmlLabel2);
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.Controls.Add(this.guna2ShadowPanel2);
@@ -398,7 +387,6 @@ namespace SIGDEN
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel3;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
         private System.Windows.Forms.Label label4;
     }
