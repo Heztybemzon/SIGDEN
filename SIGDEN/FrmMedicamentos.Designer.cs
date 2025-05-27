@@ -229,6 +229,7 @@ namespace SIGDEN
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.HoverState.Image = global::SIGDEN.Properties.Resources.Imagen_de_WhatsApp_2025_05_26_a_las_14_53_19_9af2fbe9_removebg_preview;
             this.guna2Button1.ImageSize = new System.Drawing.Size(70, 70);
             this.guna2Button1.Location = new System.Drawing.Point(355, 70);
             this.guna2Button1.Name = "guna2Button1";
@@ -332,7 +333,7 @@ namespace SIGDEN
             this.guna2Button8.ForeColor = System.Drawing.Color.Black;
             this.guna2Button8.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2Button8.HoverState.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2Button8.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.guna2Button8.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.guna2Button8.ImageSize = new System.Drawing.Size(70, 70);
             this.guna2Button8.Location = new System.Drawing.Point(907, 437);
             this.guna2Button8.Name = "guna2Button8";

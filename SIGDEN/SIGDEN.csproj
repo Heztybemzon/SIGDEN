@@ -404,5 +404,8 @@
   <ItemGroup>
     <None Include="Resources\Logo SIDGEN %2818%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_de_WhatsApp_2025-05-26_a_las_14.53.19_9af2fbe9-removebg-preview1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
