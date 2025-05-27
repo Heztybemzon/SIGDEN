@@ -503,6 +503,16 @@ namespace SIGDEN.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2025_05_26_a_las_14_53_19_9af2fbe9_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Imagen_de_WhatsApp_2025-05-26_a_las_14.53.19_9af2fbe9-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lista {
             get {
                 object obj = ResourceManager.GetObject("lista", resourceCulture);
