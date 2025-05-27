@@ -31,6 +31,7 @@ namespace SIGDEN
         {
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.label1 = new System.Windows.Forms.Label();
@@ -38,20 +39,16 @@ namespace SIGDEN
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel1
             // 
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2PictureBox6);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2Panel2);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2PictureBox4);
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -71,6 +68,17 @@ namespace SIGDEN
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(600, 5);
             this.guna2Panel2.TabIndex = 33;
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.Image = global::SIGDEN.Properties.Resources.Eslogan_SIGDEN__3_;
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(509, 35);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(598, 62);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox4.TabIndex = 5;
+            this.guna2PictureBox4.TabStop = false;
             // 
             // guna2ShadowPanel1
             // 
@@ -153,28 +161,6 @@ namespace SIGDEN
             this.guna2PictureBox3.TabIndex = 33;
             this.guna2PictureBox3.TabStop = false;
             // 
-            // guna2PictureBox6
-            // 
-            this.guna2PictureBox6.Image = global::SIGDEN.Properties.Resources.Logo_SIDGEN__17_;
-            this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(31, 22);
-            this.guna2PictureBox6.Name = "guna2PictureBox6";
-            this.guna2PictureBox6.Size = new System.Drawing.Size(89, 82);
-            this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox6.TabIndex = 34;
-            this.guna2PictureBox6.TabStop = false;
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.Image = global::SIGDEN.Properties.Resources.Eslogan_SIGDEN__3_;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(509, 35);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(598, 62);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox4.TabIndex = 5;
-            this.guna2PictureBox4.TabStop = false;
-            // 
             // FrmBeneficios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,12 +179,11 @@ namespace SIGDEN
             this.Name = "FrmBeneficios";
             this.Text = "FrmBeneficios";
             this.guna2CustomGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,6 +201,5 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
     }
 }
