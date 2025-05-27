@@ -134,7 +134,7 @@ namespace SIGDEN
             this.guna2PictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox6.Image = global::SIGDEN.Properties.Resources.GIF2;
             this.guna2PictureBox6.ImageRotate = 0F;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(275, 518);
+            this.guna2PictureBox6.Location = new System.Drawing.Point(249, 518);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.Size = new System.Drawing.Size(488, 254);
             this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +149,7 @@ namespace SIGDEN
             this.guna2PictureBox5.ImageRotate = 0F;
             this.guna2PictureBox5.Location = new System.Drawing.Point(289, 542);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(455, 230);
+            this.guna2PictureBox5.Size = new System.Drawing.Size(431, 230);
             this.guna2PictureBox5.TabIndex = 9;
             this.guna2PictureBox5.TabStop = false;
             this.guna2PictureBox5.UseTransparentBackground = true;
@@ -162,16 +162,16 @@ namespace SIGDEN
             this.guna2Panel16.Controls.Add(this.guna2Panel1);
             this.guna2Panel16.Controls.Add(this.Hora);
             this.guna2Panel16.Controls.Add(this.Fecha);
-            this.guna2Panel16.Location = new System.Drawing.Point(854, 546);
+            this.guna2Panel16.Location = new System.Drawing.Point(838, 542);
             this.guna2Panel16.Name = "guna2Panel16";
-            this.guna2Panel16.Size = new System.Drawing.Size(435, 215);
+            this.guna2Panel16.Size = new System.Drawing.Size(465, 215);
             this.guna2Panel16.TabIndex = 8;
             this.guna2Panel16.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel16_Paint);
             // 
             // guna2Panel17
             // 
             this.guna2Panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(76)))), ((int)(((byte)(51)))));
-            this.guna2Panel17.Location = new System.Drawing.Point(305, 19);
+            this.guna2Panel17.Location = new System.Drawing.Point(295, 18);
             this.guna2Panel17.Name = "guna2Panel17";
             this.guna2Panel17.Size = new System.Drawing.Size(60, 6);
             this.guna2Panel17.TabIndex = 5;
@@ -179,7 +179,7 @@ namespace SIGDEN
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(76)))), ((int)(((byte)(51)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(65, 103);
+            this.guna2Panel1.Location = new System.Drawing.Point(87, 103);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(60, 6);
             this.guna2Panel1.TabIndex = 4;
@@ -201,7 +201,7 @@ namespace SIGDEN
             this.Fecha.AutoSize = true;
             this.Fecha.Font = new System.Drawing.Font("Fugaz One", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(28)))));
-            this.Fecha.Location = new System.Drawing.Point(51, 19);
+            this.Fecha.Location = new System.Drawing.Point(72, 21);
             this.Fecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Fecha.Name = "Fecha";
             this.Fecha.Size = new System.Drawing.Size(228, 94);
@@ -214,7 +214,7 @@ namespace SIGDEN
             this.guna2PictureBox4.BorderRadius = 15;
             this.guna2PictureBox4.FillColor = System.Drawing.SystemColors.ControlDark;
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(267, 509);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(241, 509);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(503, 273);
             this.guna2PictureBox4.TabIndex = 7;
@@ -227,9 +227,9 @@ namespace SIGDEN
             this.guna2PictureBox3.BorderRadius = 10;
             this.guna2PictureBox3.FillColor = System.Drawing.SystemColors.ControlDark;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(847, 539);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(832, 535);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(450, 229);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(477, 229);
             this.guna2PictureBox3.TabIndex = 6;
             this.guna2PictureBox3.TabStop = false;
             this.guna2PictureBox3.UseTransparentBackground = true;
@@ -691,7 +691,7 @@ namespace SIGDEN
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.Silver;
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 754);
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 834);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(1386, 34);
             this.guna2Panel3.TabIndex = 3;
@@ -705,7 +705,7 @@ namespace SIGDEN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.ClientSize = new System.Drawing.Size(1386, 868);
             this.Controls.Add(this.Sidebar);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.panelContainer);
