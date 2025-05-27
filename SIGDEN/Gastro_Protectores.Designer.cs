@@ -332,7 +332,6 @@ namespace SIGDEN
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1386, 788);
-            this.Controls.Add(this.siticoneHtmlLabel3);
             this.Controls.Add(this.siticoneHtmlLabel2);
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.Controls.Add(this.guna2ShadowPanel2);
