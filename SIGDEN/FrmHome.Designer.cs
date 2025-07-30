@@ -199,12 +199,12 @@ namespace SIGDEN
             // Fecha
             // 
             this.Fecha.AutoSize = true;
-            this.Fecha.Font = new System.Drawing.Font("Fugaz One", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(28)))));
             this.Fecha.Location = new System.Drawing.Point(72, 21);
             this.Fecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Fecha.Name = "Fecha";
-            this.Fecha.Size = new System.Drawing.Size(228, 94);
+            this.Fecha.Size = new System.Drawing.Size(210, 73);
             this.Fecha.TabIndex = 0;
             this.Fecha.Text = "label1";
             // 
@@ -271,7 +271,7 @@ namespace SIGDEN
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1386, 38);
+            this.guna2Panel2.Size = new System.Drawing.Size(1215, 38);
             this.guna2Panel2.TabIndex = 1;
             // 
             // BtnMinimize
@@ -691,9 +691,9 @@ namespace SIGDEN
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.Silver;
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 834);
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 714);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1386, 34);
+            this.guna2Panel3.Size = new System.Drawing.Size(1215, 34);
             this.guna2Panel3.TabIndex = 3;
             // 
             // timer1
@@ -705,7 +705,7 @@ namespace SIGDEN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1386, 868);
+            this.ClientSize = new System.Drawing.Size(1215, 748);
             this.Controls.Add(this.Sidebar);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.panelContainer);
