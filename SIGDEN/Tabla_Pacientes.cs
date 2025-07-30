@@ -94,5 +94,10 @@ namespace SIGDEN
         {
 
         }
+
+        private void Tabla_Pacientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

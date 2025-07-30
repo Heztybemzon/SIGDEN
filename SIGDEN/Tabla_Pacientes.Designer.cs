@@ -80,8 +80,6 @@ namespace SIGDEN
             this.cmbrol = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2ShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -94,19 +92,20 @@ namespace SIGDEN
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(498, 25);
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(480, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 45);
+            this.label1.Size = new System.Drawing.Size(288, 50);
             this.label1.TabIndex = 39;
             this.label1.Text = "Tabla Pacientes";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(32, 127);
+            this.label3.Location = new System.Drawing.Point(32, 133);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 21);
             this.label3.TabIndex = 45;
@@ -115,8 +114,9 @@ namespace SIGDEN
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(32, 222);
+            this.label4.Location = new System.Drawing.Point(32, 249);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 21);
             this.label4.TabIndex = 47;
@@ -125,8 +125,9 @@ namespace SIGDEN
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(32, 317);
+            this.label5.Location = new System.Drawing.Point(32, 344);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 21);
             this.label5.TabIndex = 49;
@@ -135,8 +136,9 @@ namespace SIGDEN
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(32, 413);
+            this.label6.Location = new System.Drawing.Point(32, 440);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(134, 21);
             this.label6.TabIndex = 51;
@@ -145,8 +147,9 @@ namespace SIGDEN
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(431, 127);
+            this.label7.Location = new System.Drawing.Point(431, 133);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(95, 21);
             this.label7.TabIndex = 53;
@@ -155,8 +158,9 @@ namespace SIGDEN
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(431, 222);
+            this.label8.Location = new System.Drawing.Point(431, 249);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(109, 21);
             this.label8.TabIndex = 55;
@@ -165,8 +169,9 @@ namespace SIGDEN
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(431, 317);
+            this.label9.Location = new System.Drawing.Point(431, 344);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(108, 21);
             this.label9.TabIndex = 57;
@@ -175,8 +180,9 @@ namespace SIGDEN
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(431, 412);
+            this.label10.Location = new System.Drawing.Point(431, 439);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(110, 21);
             this.label10.TabIndex = 59;
@@ -185,8 +191,9 @@ namespace SIGDEN
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(431, 508);
+            this.label11.Location = new System.Drawing.Point(431, 535);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(36, 21);
             this.label11.TabIndex = 61;
@@ -195,8 +202,9 @@ namespace SIGDEN
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(32, 510);
+            this.label12.Location = new System.Drawing.Point(32, 537);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(180, 21);
             this.label12.TabIndex = 63;
@@ -205,8 +213,9 @@ namespace SIGDEN
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.White;
             this.label14.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(830, 127);
+            this.label14.Location = new System.Drawing.Point(830, 133);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(48, 21);
             this.label14.TabIndex = 67;
@@ -215,8 +224,9 @@ namespace SIGDEN
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.White;
             this.label15.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(830, 222);
+            this.label15.Location = new System.Drawing.Point(830, 249);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(55, 21);
             this.label15.TabIndex = 69;
@@ -225,8 +235,9 @@ namespace SIGDEN
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.White;
             this.label16.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(830, 317);
+            this.label16.Location = new System.Drawing.Point(830, 344);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(155, 21);
             this.label16.TabIndex = 71;
@@ -235,8 +246,9 @@ namespace SIGDEN
             // label17
             // 
             this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.White;
             this.label17.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(830, 412);
+            this.label17.Location = new System.Drawing.Point(830, 439);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(116, 21);
             this.label17.TabIndex = 73;
@@ -245,8 +257,9 @@ namespace SIGDEN
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(830, 508);
+            this.label13.Location = new System.Drawing.Point(830, 535);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(106, 21);
             this.label13.TabIndex = 65;
@@ -262,7 +275,7 @@ namespace SIGDEN
             this.btnagregar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.btnagregar.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnagregar.ForeColor = System.Drawing.Color.White;
-            this.btnagregar.Location = new System.Drawing.Point(479, 631);
+            this.btnagregar.Location = new System.Drawing.Point(479, 732);
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(280, 52);
             this.btnagregar.TabIndex = 74;
@@ -271,7 +284,8 @@ namespace SIGDEN
             // 
             // txtdiagnostico
             // 
-            this.txtdiagnostico.BorderColor = System.Drawing.Color.Transparent;
+            this.txtdiagnostico.BackColor = System.Drawing.Color.White;
+            this.txtdiagnostico.BorderColor = System.Drawing.Color.White;
             this.txtdiagnostico.BorderRadius = 2;
             this.txtdiagnostico.BorderThickness = 0;
             this.txtdiagnostico.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -280,13 +294,14 @@ namespace SIGDEN
             this.txtdiagnostico.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtdiagnostico.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtdiagnostico.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtdiagnostico.FillColor = System.Drawing.SystemColors.Control;
             this.txtdiagnostico.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtdiagnostico.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdiagnostico.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtdiagnostico.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtdiagnostico.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtdiagnostico.Location = new System.Drawing.Point(435, 158);
+            this.txtdiagnostico.Location = new System.Drawing.Point(435, 176);
+            this.txtdiagnostico.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtdiagnostico.Name = "txtdiagnostico";
+            this.txtdiagnostico.PlaceholderForeColor = System.Drawing.Color.White;
             this.txtdiagnostico.PlaceholderText = "";
             this.txtdiagnostico.SelectedText = "";
             this.txtdiagnostico.Size = new System.Drawing.Size(345, 35);
@@ -294,6 +309,7 @@ namespace SIGDEN
             // 
             // txtnombre
             // 
+            this.txtnombre.BackColor = System.Drawing.Color.White;
             this.txtnombre.BorderColor = System.Drawing.Color.Transparent;
             this.txtnombre.BorderRadius = 2;
             this.txtnombre.BorderThickness = 0;
@@ -303,12 +319,12 @@ namespace SIGDEN
             this.txtnombre.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtnombre.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtnombre.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtnombre.FillColor = System.Drawing.SystemColors.Control;
             this.txtnombre.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtnombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnombre.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtnombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtnombre.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtnombre.Location = new System.Drawing.Point(36, 155);
+            this.txtnombre.Location = new System.Drawing.Point(36, 173);
+            this.txtnombre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtnombre.PlaceholderText = "(Obligatorio)";
@@ -318,6 +334,7 @@ namespace SIGDEN
             // 
             // txttratamiento
             // 
+            this.txttratamiento.BackColor = System.Drawing.Color.White;
             this.txttratamiento.BorderColor = System.Drawing.Color.Transparent;
             this.txttratamiento.BorderRadius = 2;
             this.txttratamiento.BorderThickness = 0;
@@ -327,12 +344,12 @@ namespace SIGDEN
             this.txttratamiento.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txttratamiento.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txttratamiento.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txttratamiento.FillColor = System.Drawing.SystemColors.Control;
             this.txttratamiento.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txttratamiento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttratamiento.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txttratamiento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txttratamiento.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txttratamiento.Location = new System.Drawing.Point(435, 250);
+            this.txttratamiento.Location = new System.Drawing.Point(435, 277);
+            this.txttratamiento.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttratamiento.Name = "txttratamiento";
             this.txttratamiento.PlaceholderText = "";
             this.txttratamiento.SelectedText = "";
@@ -341,6 +358,7 @@ namespace SIGDEN
             // 
             // txtcurso
             // 
+            this.txtcurso.BackColor = System.Drawing.Color.White;
             this.txtcurso.BorderColor = System.Drawing.Color.Transparent;
             this.txtcurso.BorderRadius = 2;
             this.txtcurso.BorderThickness = 0;
@@ -350,12 +368,12 @@ namespace SIGDEN
             this.txtcurso.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtcurso.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtcurso.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtcurso.FillColor = System.Drawing.SystemColors.Control;
             this.txtcurso.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtcurso.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcurso.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtcurso.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtcurso.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtcurso.Location = new System.Drawing.Point(834, 250);
+            this.txtcurso.Location = new System.Drawing.Point(834, 277);
+            this.txtcurso.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtcurso.Name = "txtcurso";
             this.txtcurso.PlaceholderText = "(Obligtorio)";
             this.txtcurso.SelectedText = "";
@@ -364,6 +382,7 @@ namespace SIGDEN
             // 
             // txtapellido
             // 
+            this.txtapellido.BackColor = System.Drawing.Color.White;
             this.txtapellido.BorderColor = System.Drawing.Color.Transparent;
             this.txtapellido.BorderRadius = 2;
             this.txtapellido.BorderThickness = 0;
@@ -373,12 +392,12 @@ namespace SIGDEN
             this.txtapellido.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtapellido.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtapellido.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtapellido.FillColor = System.Drawing.SystemColors.Control;
             this.txtapellido.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtapellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtapellido.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtapellido.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtapellido.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtapellido.Location = new System.Drawing.Point(36, 261);
+            this.txtapellido.Location = new System.Drawing.Point(36, 276);
+            this.txtapellido.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtapellido.Name = "txtapellido";
             this.txtapellido.PlaceholderText = "";
             this.txtapellido.SelectedText = "";
@@ -387,6 +406,7 @@ namespace SIGDEN
             // 
             // txtobservacion
             // 
+            this.txtobservacion.BackColor = System.Drawing.Color.White;
             this.txtobservacion.BorderColor = System.Drawing.Color.Transparent;
             this.txtobservacion.BorderRadius = 2;
             this.txtobservacion.BorderThickness = 0;
@@ -396,12 +416,12 @@ namespace SIGDEN
             this.txtobservacion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtobservacion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtobservacion.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtobservacion.FillColor = System.Drawing.SystemColors.Control;
             this.txtobservacion.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtobservacion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtobservacion.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtobservacion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtobservacion.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtobservacion.Location = new System.Drawing.Point(435, 356);
+            this.txtobservacion.Location = new System.Drawing.Point(435, 383);
+            this.txtobservacion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtobservacion.Name = "txtobservacion";
             this.txtobservacion.PlaceholderText = "";
             this.txtobservacion.SelectedText = "";
@@ -410,6 +430,7 @@ namespace SIGDEN
             // 
             // txtfechanac
             // 
+            this.txtfechanac.BackColor = System.Drawing.Color.White;
             this.txtfechanac.BorderColor = System.Drawing.Color.Transparent;
             this.txtfechanac.BorderRadius = 2;
             this.txtfechanac.BorderThickness = 0;
@@ -419,12 +440,12 @@ namespace SIGDEN
             this.txtfechanac.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtfechanac.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtfechanac.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtfechanac.FillColor = System.Drawing.SystemColors.Control;
             this.txtfechanac.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtfechanac.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtfechanac.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtfechanac.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtfechanac.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtfechanac.Location = new System.Drawing.Point(834, 356);
+            this.txtfechanac.Location = new System.Drawing.Point(834, 383);
+            this.txtfechanac.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtfechanac.Name = "txtfechanac";
             this.txtfechanac.PlaceholderText = "YYYY-MM-DD (Obligatorio)";
             this.txtfechanac.SelectedText = "";
@@ -433,6 +454,7 @@ namespace SIGDEN
             // 
             // txtpadretutor
             // 
+            this.txtpadretutor.BackColor = System.Drawing.Color.White;
             this.txtpadretutor.BorderColor = System.Drawing.Color.Transparent;
             this.txtpadretutor.BorderRadius = 2;
             this.txtpadretutor.BorderThickness = 0;
@@ -442,12 +464,12 @@ namespace SIGDEN
             this.txtpadretutor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtpadretutor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtpadretutor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtpadretutor.FillColor = System.Drawing.SystemColors.Control;
             this.txtpadretutor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtpadretutor.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpadretutor.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtpadretutor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtpadretutor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtpadretutor.Location = new System.Drawing.Point(36, 355);
+            this.txtpadretutor.Location = new System.Drawing.Point(36, 382);
+            this.txtpadretutor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtpadretutor.Name = "txtpadretutor";
             this.txtpadretutor.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtpadretutor.PlaceholderText = "(Obligatorio)";
@@ -457,6 +479,7 @@ namespace SIGDEN
             // 
             // txtretiradopor
             // 
+            this.txtretiradopor.BackColor = System.Drawing.Color.White;
             this.txtretiradopor.BorderColor = System.Drawing.Color.Transparent;
             this.txtretiradopor.BorderRadius = 2;
             this.txtretiradopor.BorderThickness = 0;
@@ -466,12 +489,12 @@ namespace SIGDEN
             this.txtretiradopor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtretiradopor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtretiradopor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtretiradopor.FillColor = System.Drawing.SystemColors.Control;
             this.txtretiradopor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtretiradopor.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtretiradopor.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtretiradopor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtretiradopor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtretiradopor.Location = new System.Drawing.Point(435, 450);
+            this.txtretiradopor.Location = new System.Drawing.Point(435, 477);
+            this.txtretiradopor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtretiradopor.Name = "txtretiradopor";
             this.txtretiradopor.PlaceholderText = "";
             this.txtretiradopor.SelectedText = "";
@@ -480,6 +503,7 @@ namespace SIGDEN
             // 
             // txtfechaatencion
             // 
+            this.txtfechaatencion.BackColor = System.Drawing.Color.White;
             this.txtfechaatencion.BorderColor = System.Drawing.Color.Transparent;
             this.txtfechaatencion.BorderRadius = 2;
             this.txtfechaatencion.BorderThickness = 0;
@@ -489,12 +513,12 @@ namespace SIGDEN
             this.txtfechaatencion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtfechaatencion.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtfechaatencion.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtfechaatencion.FillColor = System.Drawing.SystemColors.Control;
             this.txtfechaatencion.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtfechaatencion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtfechaatencion.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtfechaatencion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtfechaatencion.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtfechaatencion.Location = new System.Drawing.Point(36, 451);
+            this.txtfechaatencion.Location = new System.Drawing.Point(36, 478);
+            this.txtfechaatencion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtfechaatencion.Name = "txtfechaatencion";
             this.txtfechaatencion.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtfechaatencion.PlaceholderText = "YYYY-MM-DD (Obligatorio)";
@@ -504,6 +528,7 @@ namespace SIGDEN
             // 
             // txttelefonopadre
             // 
+            this.txttelefonopadre.BackColor = System.Drawing.Color.White;
             this.txttelefonopadre.BorderColor = System.Drawing.Color.Transparent;
             this.txttelefonopadre.BorderRadius = 2;
             this.txttelefonopadre.BorderThickness = 0;
@@ -513,12 +538,12 @@ namespace SIGDEN
             this.txttelefonopadre.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txttelefonopadre.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txttelefonopadre.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txttelefonopadre.FillColor = System.Drawing.SystemColors.Control;
             this.txttelefonopadre.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txttelefonopadre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttelefonopadre.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txttelefonopadre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txttelefonopadre.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txttelefonopadre.Location = new System.Drawing.Point(36, 547);
+            this.txttelefonopadre.Location = new System.Drawing.Point(36, 574);
+            this.txttelefonopadre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txttelefonopadre.Name = "txttelefonopadre";
             this.txttelefonopadre.PlaceholderText = "";
             this.txttelefonopadre.SelectedText = "";
@@ -532,7 +557,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(435, 194);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(435, 212);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel2.TabIndex = 80;
@@ -544,7 +569,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel3.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(834, 194);
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(834, 212);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel3.TabIndex = 80;
@@ -556,7 +581,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel4.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel4.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(36, 191);
+            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(36, 209);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel4.TabIndex = 80;
@@ -568,7 +593,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel5.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel5.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(435, 286);
+            this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(435, 313);
             this.guna2CustomGradientPanel5.Name = "guna2CustomGradientPanel5";
             this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel5.TabIndex = 80;
@@ -580,7 +605,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel6.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel6.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel6.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel6.Location = new System.Drawing.Point(834, 286);
+            this.guna2CustomGradientPanel6.Location = new System.Drawing.Point(834, 313);
             this.guna2CustomGradientPanel6.Name = "guna2CustomGradientPanel6";
             this.guna2CustomGradientPanel6.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel6.TabIndex = 80;
@@ -592,7 +617,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel7.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel7.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel7.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(36, 297);
+            this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(36, 313);
             this.guna2CustomGradientPanel7.Name = "guna2CustomGradientPanel7";
             this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel7.TabIndex = 80;
@@ -604,7 +629,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel8.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel8.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel8.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel8.Location = new System.Drawing.Point(435, 392);
+            this.guna2CustomGradientPanel8.Location = new System.Drawing.Point(435, 419);
             this.guna2CustomGradientPanel8.Name = "guna2CustomGradientPanel8";
             this.guna2CustomGradientPanel8.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel8.TabIndex = 80;
@@ -616,7 +641,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel9.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel9.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel9.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel9.Location = new System.Drawing.Point(834, 392);
+            this.guna2CustomGradientPanel9.Location = new System.Drawing.Point(834, 419);
             this.guna2CustomGradientPanel9.Name = "guna2CustomGradientPanel9";
             this.guna2CustomGradientPanel9.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel9.TabIndex = 80;
@@ -628,7 +653,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel10.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel10.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel10.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel10.Location = new System.Drawing.Point(36, 391);
+            this.guna2CustomGradientPanel10.Location = new System.Drawing.Point(36, 418);
             this.guna2CustomGradientPanel10.Name = "guna2CustomGradientPanel10";
             this.guna2CustomGradientPanel10.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel10.TabIndex = 80;
@@ -640,7 +665,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel11.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel11.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel11.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel11.Location = new System.Drawing.Point(435, 486);
+            this.guna2CustomGradientPanel11.Location = new System.Drawing.Point(435, 513);
             this.guna2CustomGradientPanel11.Name = "guna2CustomGradientPanel11";
             this.guna2CustomGradientPanel11.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel11.TabIndex = 80;
@@ -652,7 +677,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel12.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel12.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel12.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel12.Location = new System.Drawing.Point(834, 486);
+            this.guna2CustomGradientPanel12.Location = new System.Drawing.Point(834, 513);
             this.guna2CustomGradientPanel12.Name = "guna2CustomGradientPanel12";
             this.guna2CustomGradientPanel12.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel12.TabIndex = 80;
@@ -664,7 +689,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel13.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel13.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel13.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel13.Location = new System.Drawing.Point(36, 487);
+            this.guna2CustomGradientPanel13.Location = new System.Drawing.Point(36, 514);
             this.guna2CustomGradientPanel13.Name = "guna2CustomGradientPanel13";
             this.guna2CustomGradientPanel13.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel13.TabIndex = 80;
@@ -676,7 +701,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel14.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel14.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel14.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel14.Location = new System.Drawing.Point(435, 582);
+            this.guna2CustomGradientPanel14.Location = new System.Drawing.Point(435, 609);
             this.guna2CustomGradientPanel14.Name = "guna2CustomGradientPanel14";
             this.guna2CustomGradientPanel14.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel14.TabIndex = 80;
@@ -688,7 +713,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel15.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel15.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel15.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel15.Location = new System.Drawing.Point(834, 582);
+            this.guna2CustomGradientPanel15.Location = new System.Drawing.Point(834, 609);
             this.guna2CustomGradientPanel15.Name = "guna2CustomGradientPanel15";
             this.guna2CustomGradientPanel15.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel15.TabIndex = 80;
@@ -700,41 +725,39 @@ namespace SIGDEN
             this.guna2CustomGradientPanel16.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel16.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
             this.guna2CustomGradientPanel16.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel16.Location = new System.Drawing.Point(36, 583);
+            this.guna2CustomGradientPanel16.Location = new System.Drawing.Point(36, 610);
             this.guna2CustomGradientPanel16.Name = "guna2CustomGradientPanel16";
             this.guna2CustomGradientPanel16.Size = new System.Drawing.Size(350, 5);
             this.guna2CustomGradientPanel16.TabIndex = 80;
             // 
             // cmbsexo
             // 
-            this.cmbsexo.BackColor = System.Drawing.Color.Transparent;
-            this.cmbsexo.BorderColor = System.Drawing.SystemColors.Control;
+            this.cmbsexo.BackColor = System.Drawing.Color.White;
+            this.cmbsexo.BorderColor = System.Drawing.Color.White;
             this.cmbsexo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbsexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbsexo.FillColor = System.Drawing.SystemColors.Control;
             this.cmbsexo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cmbsexo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbsexo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbsexo.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.cmbsexo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbsexo.ItemHeight = 30;
             this.cmbsexo.Items.AddRange(new object[] {
             "Femenino",
             "Masculino"});
-            this.cmbsexo.Location = new System.Drawing.Point(834, 157);
+            this.cmbsexo.Location = new System.Drawing.Point(834, 175);
             this.cmbsexo.Name = "cmbsexo";
             this.cmbsexo.Size = new System.Drawing.Size(350, 36);
             this.cmbsexo.TabIndex = 95;
             // 
             // cmbhorallegada
             // 
-            this.cmbhorallegada.BackColor = System.Drawing.Color.Transparent;
-            this.cmbhorallegada.BorderColor = System.Drawing.SystemColors.Control;
+            this.cmbhorallegada.BackColor = System.Drawing.Color.White;
+            this.cmbhorallegada.BorderColor = System.Drawing.Color.White;
             this.cmbhorallegada.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbhorallegada.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbhorallegada.FillColor = System.Drawing.SystemColors.Control;
             this.cmbhorallegada.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cmbhorallegada.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbhorallegada.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbhorallegada.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.cmbhorallegada.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbhorallegada.ItemHeight = 30;
             this.cmbhorallegada.Items.AddRange(new object[] {
@@ -753,21 +776,20 @@ namespace SIGDEN
             "02:00 p. m.",
             "02:30 p. m.",
             "03:00 p. m."});
-            this.cmbhorallegada.Location = new System.Drawing.Point(834, 449);
+            this.cmbhorallegada.Location = new System.Drawing.Point(834, 476);
             this.cmbhorallegada.Name = "cmbhorallegada";
             this.cmbhorallegada.Size = new System.Drawing.Size(350, 36);
             this.cmbhorallegada.TabIndex = 96;
             // 
             // cmbhorasalida
             // 
-            this.cmbhorasalida.BackColor = System.Drawing.Color.Transparent;
-            this.cmbhorasalida.BorderColor = System.Drawing.SystemColors.Control;
+            this.cmbhorasalida.BackColor = System.Drawing.Color.White;
+            this.cmbhorasalida.BorderColor = System.Drawing.Color.White;
             this.cmbhorasalida.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbhorasalida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbhorasalida.FillColor = System.Drawing.SystemColors.Control;
             this.cmbhorasalida.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cmbhorasalida.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbhorasalida.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbhorasalida.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.cmbhorasalida.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbhorasalida.ItemHeight = 30;
             this.cmbhorasalida.Items.AddRange(new object[] {
@@ -786,21 +808,20 @@ namespace SIGDEN
             "02:00 p. m.",
             "02:30 p. m.",
             "03:00 p. m."});
-            this.cmbhorasalida.Location = new System.Drawing.Point(834, 545);
+            this.cmbhorasalida.Location = new System.Drawing.Point(834, 572);
             this.cmbhorasalida.Name = "cmbhorasalida";
             this.cmbhorasalida.Size = new System.Drawing.Size(350, 36);
             this.cmbhorasalida.TabIndex = 97;
             // 
             // cmbrol
             // 
-            this.cmbrol.BackColor = System.Drawing.Color.Transparent;
-            this.cmbrol.BorderColor = System.Drawing.SystemColors.Control;
+            this.cmbrol.BackColor = System.Drawing.Color.White;
+            this.cmbrol.BorderColor = System.Drawing.Color.White;
             this.cmbrol.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbrol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbrol.FillColor = System.Drawing.SystemColors.Control;
             this.cmbrol.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.cmbrol.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbrol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbrol.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.cmbrol.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cmbrol.ItemHeight = 30;
             this.cmbrol.Items.AddRange(new object[] {
@@ -808,7 +829,7 @@ namespace SIGDEN
             "Maestro",
             "Coordinador ",
             "Otro"});
-            this.cmbrol.Location = new System.Drawing.Point(435, 545);
+            this.cmbrol.Location = new System.Drawing.Point(435, 572);
             this.cmbrol.Name = "cmbrol";
             this.cmbrol.Size = new System.Drawing.Size(350, 36);
             this.cmbrol.TabIndex = 98;
@@ -816,32 +837,22 @@ namespace SIGDEN
             // guna2ShadowPanel1
             // 
             this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel1.Controls.Add(this.guna2GradientPanel2);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(-17, -14);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(2, 87);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 5;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel1.ShadowDepth = 30;
             this.guna2ShadowPanel1.ShadowShift = 12;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1297, 111);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1250, 612);
             this.guna2ShadowPanel1.TabIndex = 101;
             this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(115)))), ((int)(((byte)(67)))));
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(28)))));
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(3, 14);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1268, 13);
-            this.guna2GradientPanel2.TabIndex = 102;
             // 
             // Tabla_Pacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1255, 748);
+            this.ClientSize = new System.Drawing.Size(1255, 793);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbrol);
             this.Controls.Add(this.cmbhorasalida);
@@ -893,7 +904,7 @@ namespace SIGDEN
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Tabla_Pacientes";
             this.Text = "Tabla_Pacientes";
-            this.guna2ShadowPanel1.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Tabla_Pacientes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -951,6 +962,5 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2ComboBox cmbrol;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
     }
 }
