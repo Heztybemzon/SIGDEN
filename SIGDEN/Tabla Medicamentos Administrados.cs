@@ -31,7 +31,7 @@ namespace SIGDEN
             {
                 sql.Open();
 
-                string query = "INSERT INTO pacientes (paciente_id, medicamento_id, cantidad_administrada, fecha_administracion, observaciones) VALUES " + "(@paciente_id, @medicamento_id, @cantidad_administrada, @fecha_administracion, @observaciones)";
+                string query = "INSERT INTO medicamentos_administrados (paciente_id, medicamento_id, cantidad_administrada, fecha_administracion, observaciones) VALUES " + "(@paciente_id, @medicamento_id, @cantidad_administrada, @fecha_administracion, @observaciones)";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, sql))
                 {

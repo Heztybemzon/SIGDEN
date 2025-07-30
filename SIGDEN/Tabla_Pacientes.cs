@@ -89,5 +89,10 @@ namespace SIGDEN
 
             //Fin Btn
         }
+
+        private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

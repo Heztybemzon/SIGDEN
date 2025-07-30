@@ -48,11 +48,12 @@ namespace SIGDEN
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -98,7 +99,7 @@ namespace SIGDEN
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(85, 6);
+            this.label1.Location = new System.Drawing.Point(85, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(158, 37);
             this.label1.TabIndex = 0;
@@ -142,7 +143,7 @@ namespace SIGDEN
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(28)))));
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1514, 156);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1386, 156);
             this.guna2CustomGradientPanel1.TabIndex = 3;
             // 
             // guna2GradientPanel1
@@ -271,12 +272,20 @@ namespace SIGDEN
             // guna2Panel5
             // 
             this.guna2Panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(48)))), ((int)(((byte)(38)))));
+            this.guna2Panel5.Controls.Add(this.label5);
             this.guna2Panel5.Controls.Add(this.label4);
             this.guna2Panel5.Controls.Add(this.label2);
             this.guna2Panel5.Location = new System.Drawing.Point(0, 408);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(333, 62);
             this.guna2Panel5.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.TabIndex = 0;
             // 
             // label2
             // 
@@ -302,29 +311,29 @@ namespace SIGDEN
             this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel2.Location = new System.Drawing.Point(0, 0);
             this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(0, 0);
+            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(3, 2);
             this.siticoneHtmlLabel2.TabIndex = 9;
             this.siticoneHtmlLabel2.Text = null;
             // 
-            // siticoneHtmlLabel3
+            // siticoneHtmlLabel1
             // 
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel1.Location = new System.Drawing.Point(0, 0);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(0, 0);
+            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(3, 2);
             this.siticoneHtmlLabel1.TabIndex = 10;
             this.siticoneHtmlLabel1.Text = null;
             // 
-            // label3
+            // label5
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label3.Location = new System.Drawing.Point(89, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(141, 37);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Antiácido";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label5.Location = new System.Drawing.Point(85, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(162, 37);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Albendazol";
             // 
             // Gastro_Protectores
             // 
@@ -357,6 +366,7 @@ namespace SIGDEN
             this.guna2Panel4.ResumeLayout(false);
             this.guna2ShadowPanel3.ResumeLayout(false);
             this.guna2Panel5.ResumeLayout(false);
+            this.guna2Panel5.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -388,5 +398,6 @@ namespace SIGDEN
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
