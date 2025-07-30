@@ -164,7 +164,7 @@ namespace SIGDEN
             this.guna2Panel16.Controls.Add(this.Fecha);
             this.guna2Panel16.Location = new System.Drawing.Point(838, 542);
             this.guna2Panel16.Name = "guna2Panel16";
-            this.guna2Panel16.Size = new System.Drawing.Size(465, 215);
+            this.guna2Panel16.Size = new System.Drawing.Size(451, 215);
             this.guna2Panel16.TabIndex = 8;
             this.guna2Panel16.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel16_Paint);
             // 
@@ -229,7 +229,7 @@ namespace SIGDEN
             this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(832, 535);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(477, 229);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(464, 229);
             this.guna2PictureBox3.TabIndex = 6;
             this.guna2PictureBox3.TabStop = false;
             this.guna2PictureBox3.UseTransparentBackground = true;
