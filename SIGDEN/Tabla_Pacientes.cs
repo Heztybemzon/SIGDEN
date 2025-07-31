@@ -99,5 +99,10 @@ namespace SIGDEN
         {
 
         }
+
+        private void txtcurso_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

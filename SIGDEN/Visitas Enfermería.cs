@@ -63,5 +63,35 @@ namespace SIGDEN
                 sql.Close();
             }
         }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtpaciente_id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Visitas_Enfermería_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ShadowPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

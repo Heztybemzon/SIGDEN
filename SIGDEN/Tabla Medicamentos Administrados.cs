@@ -71,6 +71,16 @@ namespace SIGDEN
 
             //Fin Btn
         }
+
+        private void Tabla_Medicamentos_Administrados_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     }

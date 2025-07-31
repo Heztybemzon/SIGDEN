@@ -66,5 +66,15 @@ namespace SIGDEN
                 sql.Close();
             }
         }
+
+        private void Tabla_Fecha_Médica_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtasistenciamedica_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

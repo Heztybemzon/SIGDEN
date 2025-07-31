@@ -80,6 +80,9 @@ namespace SIGDEN
             this.cmbrol = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -92,9 +95,10 @@ namespace SIGDEN
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(45)))), ((int)(((byte)(32)))));
             this.label1.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(480, 19);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(480, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(288, 50);
             this.label1.TabIndex = 39;
@@ -105,7 +109,7 @@ namespace SIGDEN
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(32, 133);
+            this.label3.Location = new System.Drawing.Point(32, 137);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 21);
             this.label3.TabIndex = 45;
@@ -149,7 +153,7 @@ namespace SIGDEN
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(431, 133);
+            this.label7.Location = new System.Drawing.Point(431, 137);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(95, 21);
             this.label7.TabIndex = 53;
@@ -215,7 +219,7 @@ namespace SIGDEN
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.White;
             this.label14.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(830, 133);
+            this.label14.Location = new System.Drawing.Point(830, 137);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(48, 21);
             this.label14.TabIndex = 67;
@@ -273,11 +277,11 @@ namespace SIGDEN
             this.btnagregar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnagregar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnagregar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.btnagregar.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnagregar.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnagregar.ForeColor = System.Drawing.Color.White;
             this.btnagregar.Location = new System.Drawing.Point(479, 732);
             this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(280, 52);
+            this.btnagregar.Size = new System.Drawing.Size(275, 52);
             this.btnagregar.TabIndex = 74;
             this.btnagregar.Text = "AGREGAR";
             this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
@@ -326,7 +330,7 @@ namespace SIGDEN
             this.txtnombre.Location = new System.Drawing.Point(36, 173);
             this.txtnombre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txtnombre.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txtnombre.PlaceholderText = "(Obligatorio)";
             this.txtnombre.SelectedText = "";
             this.txtnombre.Size = new System.Drawing.Size(350, 35);
@@ -372,13 +376,15 @@ namespace SIGDEN
             this.txtcurso.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtcurso.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtcurso.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtcurso.Location = new System.Drawing.Point(834, 277);
+            this.txtcurso.Location = new System.Drawing.Point(834, 278);
             this.txtcurso.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtcurso.Name = "txtcurso";
+            this.txtcurso.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txtcurso.PlaceholderText = "(Obligtorio)";
             this.txtcurso.SelectedText = "";
             this.txtcurso.Size = new System.Drawing.Size(350, 35);
             this.txtcurso.TabIndex = 84;
+            this.txtcurso.TextChanged += new System.EventHandler(this.txtcurso_TextChanged);
             // 
             // txtapellido
             // 
@@ -447,6 +453,7 @@ namespace SIGDEN
             this.txtfechanac.Location = new System.Drawing.Point(834, 383);
             this.txtfechanac.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtfechanac.Name = "txtfechanac";
+            this.txtfechanac.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txtfechanac.PlaceholderText = "YYYY-MM-DD (Obligatorio)";
             this.txtfechanac.SelectedText = "";
             this.txtfechanac.Size = new System.Drawing.Size(350, 35);
@@ -471,7 +478,7 @@ namespace SIGDEN
             this.txtpadretutor.Location = new System.Drawing.Point(36, 382);
             this.txtpadretutor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtpadretutor.Name = "txtpadretutor";
-            this.txtpadretutor.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txtpadretutor.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txtpadretutor.PlaceholderText = "(Obligatorio)";
             this.txtpadretutor.SelectedText = "";
             this.txtpadretutor.Size = new System.Drawing.Size(350, 35);
@@ -520,7 +527,7 @@ namespace SIGDEN
             this.txtfechaatencion.Location = new System.Drawing.Point(36, 478);
             this.txtfechaatencion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtfechaatencion.Name = "txtfechaatencion";
-            this.txtfechaatencion.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txtfechaatencion.PlaceholderForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtfechaatencion.PlaceholderText = "YYYY-MM-DD (Obligatorio)";
             this.txtfechaatencion.SelectedText = "";
             this.txtfechaatencion.Size = new System.Drawing.Size(350, 35);
@@ -553,10 +560,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel2
             // 
             this.guna2CustomGradientPanel2.BorderRadius = 5;
-            this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(435, 212);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(350, 5);
@@ -565,10 +572,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel3
             // 
             this.guna2CustomGradientPanel3.BorderRadius = 5;
-            this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel3.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel3.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(834, 212);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(350, 5);
@@ -577,10 +584,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BorderRadius = 5;
-            this.guna2CustomGradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel4.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel4.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel4.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel4.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel4.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(36, 209);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(350, 5);
@@ -589,10 +596,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel5
             // 
             this.guna2CustomGradientPanel5.BorderRadius = 5;
-            this.guna2CustomGradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel5.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel5.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel5.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel5.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel5.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel5.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(435, 313);
             this.guna2CustomGradientPanel5.Name = "guna2CustomGradientPanel5";
             this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(350, 5);
@@ -601,10 +608,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel6
             // 
             this.guna2CustomGradientPanel6.BorderRadius = 5;
-            this.guna2CustomGradientPanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel6.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel6.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel6.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel6.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel6.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel6.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel6.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel6.Location = new System.Drawing.Point(834, 313);
             this.guna2CustomGradientPanel6.Name = "guna2CustomGradientPanel6";
             this.guna2CustomGradientPanel6.Size = new System.Drawing.Size(350, 5);
@@ -613,10 +620,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel7
             // 
             this.guna2CustomGradientPanel7.BorderRadius = 5;
-            this.guna2CustomGradientPanel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel7.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel7.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel7.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel7.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel7.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel7.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel7.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(36, 313);
             this.guna2CustomGradientPanel7.Name = "guna2CustomGradientPanel7";
             this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(350, 5);
@@ -625,10 +632,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel8
             // 
             this.guna2CustomGradientPanel8.BorderRadius = 5;
-            this.guna2CustomGradientPanel8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel8.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel8.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel8.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel8.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel8.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel8.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel8.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel8.Location = new System.Drawing.Point(435, 419);
             this.guna2CustomGradientPanel8.Name = "guna2CustomGradientPanel8";
             this.guna2CustomGradientPanel8.Size = new System.Drawing.Size(350, 5);
@@ -637,10 +644,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel9
             // 
             this.guna2CustomGradientPanel9.BorderRadius = 5;
-            this.guna2CustomGradientPanel9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel9.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel9.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel9.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel9.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel9.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel9.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel9.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel9.Location = new System.Drawing.Point(834, 419);
             this.guna2CustomGradientPanel9.Name = "guna2CustomGradientPanel9";
             this.guna2CustomGradientPanel9.Size = new System.Drawing.Size(350, 5);
@@ -649,10 +656,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel10
             // 
             this.guna2CustomGradientPanel10.BorderRadius = 5;
-            this.guna2CustomGradientPanel10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel10.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel10.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel10.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel10.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel10.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel10.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel10.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel10.Location = new System.Drawing.Point(36, 418);
             this.guna2CustomGradientPanel10.Name = "guna2CustomGradientPanel10";
             this.guna2CustomGradientPanel10.Size = new System.Drawing.Size(350, 5);
@@ -661,10 +668,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel11
             // 
             this.guna2CustomGradientPanel11.BorderRadius = 5;
-            this.guna2CustomGradientPanel11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel11.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel11.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel11.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel11.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel11.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel11.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel11.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel11.Location = new System.Drawing.Point(435, 513);
             this.guna2CustomGradientPanel11.Name = "guna2CustomGradientPanel11";
             this.guna2CustomGradientPanel11.Size = new System.Drawing.Size(350, 5);
@@ -673,10 +680,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel12
             // 
             this.guna2CustomGradientPanel12.BorderRadius = 5;
-            this.guna2CustomGradientPanel12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel12.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel12.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel12.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel12.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel12.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel12.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel12.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel12.Location = new System.Drawing.Point(834, 513);
             this.guna2CustomGradientPanel12.Name = "guna2CustomGradientPanel12";
             this.guna2CustomGradientPanel12.Size = new System.Drawing.Size(350, 5);
@@ -685,10 +692,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel13
             // 
             this.guna2CustomGradientPanel13.BorderRadius = 5;
-            this.guna2CustomGradientPanel13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel13.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel13.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel13.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel13.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel13.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel13.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel13.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel13.Location = new System.Drawing.Point(36, 514);
             this.guna2CustomGradientPanel13.Name = "guna2CustomGradientPanel13";
             this.guna2CustomGradientPanel13.Size = new System.Drawing.Size(350, 5);
@@ -697,10 +704,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel14
             // 
             this.guna2CustomGradientPanel14.BorderRadius = 5;
-            this.guna2CustomGradientPanel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel14.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel14.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel14.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel14.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel14.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel14.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel14.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel14.Location = new System.Drawing.Point(435, 609);
             this.guna2CustomGradientPanel14.Name = "guna2CustomGradientPanel14";
             this.guna2CustomGradientPanel14.Size = new System.Drawing.Size(350, 5);
@@ -709,10 +716,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel15
             // 
             this.guna2CustomGradientPanel15.BorderRadius = 5;
-            this.guna2CustomGradientPanel15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel15.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel15.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel15.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel15.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel15.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel15.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel15.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel15.Location = new System.Drawing.Point(834, 609);
             this.guna2CustomGradientPanel15.Name = "guna2CustomGradientPanel15";
             this.guna2CustomGradientPanel15.Size = new System.Drawing.Size(350, 5);
@@ -721,10 +728,10 @@ namespace SIGDEN
             // guna2CustomGradientPanel16
             // 
             this.guna2CustomGradientPanel16.BorderRadius = 5;
-            this.guna2CustomGradientPanel16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel16.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel16.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
-            this.guna2CustomGradientPanel16.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(76)))), ((int)(((byte)(63)))));
+            this.guna2CustomGradientPanel16.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel16.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel16.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel16.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel16.Location = new System.Drawing.Point(36, 610);
             this.guna2CustomGradientPanel16.Name = "guna2CustomGradientPanel16";
             this.guna2CustomGradientPanel16.Size = new System.Drawing.Size(350, 5);
@@ -838,22 +845,47 @@ namespace SIGDEN
             // 
             this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(2, 87);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(2, 98);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 5;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.ShadowDepth = 30;
+            this.guna2ShadowPanel1.ShadowDepth = 40;
             this.guna2ShadowPanel1.ShadowShift = 12;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1250, 612);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(1250, 601);
             this.guna2ShadowPanel1.TabIndex = 101;
             this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BorderRadius = 35;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(45)))), ((int)(((byte)(32)))));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(403, 12);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(449, 69);
+            this.guna2PictureBox1.TabIndex = 102;
+            this.guna2PictureBox1.TabStop = false;
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BorderRadius = 5;
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.Lime;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Green;
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(489, 63);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(270, 4);
+            this.guna2CustomGradientPanel1.TabIndex = 81;
             // 
             // Tabla_Pacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1255, 793);
+            this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.cmbrol);
             this.Controls.Add(this.cmbhorasalida);
             this.Controls.Add(this.cmbhorallegada);
@@ -905,6 +937,7 @@ namespace SIGDEN
             this.Name = "Tabla_Pacientes";
             this.Text = "Tabla_Pacientes";
             this.Load += new System.EventHandler(this.Tabla_Pacientes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -962,5 +995,7 @@ namespace SIGDEN
         private Guna.UI2.WinForms.Guna2ComboBox cmbrol;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
     }
 }

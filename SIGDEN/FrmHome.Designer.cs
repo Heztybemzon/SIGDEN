@@ -594,7 +594,7 @@ namespace SIGDEN
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(217, 40);
             this.guna2Button6.TabIndex = 3;
-            this.guna2Button6.Text = "FICHA MÉDICA";
+            this.guna2Button6.Text = "FECHA MÉDICA";
             this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button4
